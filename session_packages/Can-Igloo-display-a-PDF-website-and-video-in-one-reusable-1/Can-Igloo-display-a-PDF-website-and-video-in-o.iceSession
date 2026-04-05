@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<ProductVersion>
+  <Major>1</Major>
+  <Minor>5</Minor>
+  <Patch>0</Patch>
+  <VersionString>1.5.0.250527-1</VersionString>
+</ProductVersion>
+<Session>
+  <Id>5a974f26-cebc-43b1-ac33-6385ce65c5a0</Id>
+  <Name>Can Igloo display a PDF, website, and video in o</Name>
+  <Description>Can Igloo display a PDF, website, and video in one reusable session?</Description>
+  <Thumbnail>{default}images\thumbnails\layers\video.png</Thumbnail>
+  <ReadOnly>0</ReadOnly>
+  <Tags />
+  <ExportedWithAssets>0</ExportedWithAssets>
+  <Metadata />
+  <Layers>
+    <ExportedWithAssets>0</ExportedWithAssets>
+    <Layer streamReceiveBufferSize="100">
+      <Metadata />
+      <Name>Primary video segment</Name>
+      <PositionX>0.5</PositionX>
+      <PositionY>0.5</PositionY>
+      <RatioX>2</RatioX>
+      <RatioY>1</RatioY>
+      <Scale>1</Scale>
+      <ResizeMode>0</ResizeMode>
+      <PositionMode>0</PositionMode>
+      <UiEnabled>1</UiEnabled>
+      <UUID>e84cbce2-db5b-48d6-b07d-967110fbe084</UUID>
+      <Type>Video</Type>
+      <FilePath>C:\igloo\igloo-core-service\Igloo Agent\evidence\session_packages\Can-Igloo-display-a-PDF-website-and-video-in-one-reusable-1\assets\Primary-video-segment.placeholder.txt</FilePath>
+      <Loop>0</Loop>
+      <AutoPlay>1</AutoPlay>
+      <AudioVolume>0.5</AudioVolume>
+    </Layer>
+    <Layer streamReceiveBufferSize="100">
+      <Metadata />
+      <Name>Supporting PDF or lesson document</Name>
+      <PositionX>0.5</PositionX>
+      <PositionY>0.5</PositionY>
+      <RatioX>2</RatioX>
+      <RatioY>1</RatioY>
+      <Scale>1</Scale>
+      <ResizeMode>0</ResizeMode>
+      <PositionMode>0</PositionMode>
+      <UiEnabled>1</UiEnabled>
+      <UUID>8cca9219-3826-40de-a8a6-2e1857fd5a00</UUID>
+      <Type>WebView</Type>
+      <FilePath>C:\igloo\igloo-core-service\Igloo Agent\evidence\session_packages\Can-Igloo-display-a-PDF-website-and-video-in-one-reusable-1\assets\Supporting-PDF-or-lesson-document.placeholder.txt</FilePath>
+      <Loop>0</Loop>
+      <AutoPlay>0</AutoPlay>
+      <AudioVolume>0.5</AudioVolume>
+    </Layer>
+    <Layer streamReceiveBufferSize="100">
+      <Metadata />
+      <Name>Supporting website or WebView content</Name>
+      <PositionX>0.5</PositionX>
+      <PositionY>0.5</PositionY>
+      <RatioX>2</RatioX>
+      <RatioY>1</RatioY>
+      <Scale>1</Scale>
+      <ResizeMode>0</ResizeMode>
+      <PositionMode>0</PositionMode>
+      <UiEnabled>1</UiEnabled>
+      <UUID>6a7f381a-5159-4da6-bb7f-51221c3a1503</UUID>
+      <Type>WebView</Type>
+      <FilePath>C:\igloo\igloo-core-service\Igloo Agent\evidence\session_packages\Can-Igloo-display-a-PDF-website-and-video-in-one-reusable-1\assets\Supporting-website-or-WebView-content.placeholder.txt</FilePath>
+      <Loop>0</Loop>
+      <AutoPlay>0</AutoPlay>
+      <AudioVolume>0.5</AudioVolume>
+    </Layer>
+    <Layer streamReceiveBufferSize="100">
+      <Metadata />
+      <Name>Launch menu graphics</Name>
+      <PositionX>0.5</PositionX>
+      <PositionY>0.5</PositionY>
+      <RatioX>2</RatioX>
+      <RatioY>1</RatioY>
+      <Scale>1</Scale>
+      <ResizeMode>0</ResizeMode>
+      <PositionMode>0</PositionMode>
+      <UiEnabled>1</UiEnabled>
+      <UUID>22578f16-77ba-4cf0-9a54-114fee403f07</UUID>
+      <Type>Image</Type>
+      <FilePath>C:\igloo\igloo-core-service\Igloo Agent\evidence\session_packages\Can-Igloo-display-a-PDF-website-and-video-in-one-reusable-1\assets\Launch-menu-graphics.placeholder.txt</FilePath>
+      <Loop>0</Loop>
+      <AutoPlay>0</AutoPlay>
+      <AudioVolume>0.5</AudioVolume>
+    </Layer>
+    <Layer streamReceiveBufferSize="100">
+      <Metadata />
+      <Name>Content Bank switcher</Name>
+      <PositionX>0.5</PositionX>
+      <PositionY>0.5</PositionY>
+      <RatioX>2</RatioX>
+      <RatioY>1</RatioY>
+      <Scale>1</Scale>
+      <ResizeMode>0</ResizeMode>
+      <PositionMode>0</PositionMode>
+      <UiEnabled>1</UiEnabled>
+      <UUID>41ef785b-8707-4a87-a8be-8b296d92e8ed</UUID>
+      <Type>ContentBank</Type>
+      <FilePath>C:\igloo\igloo-core-service\Igloo Agent\evidence\session_packages\Can-Igloo-display-a-PDF-website-and-video-in-one-reusable-1\assets\Content-Bank-switcher.placeholder.txt</FilePath>
+      <Loop>0</Loop>
+      <AutoPlay>0</AutoPlay>
+      <AudioVolume>0.5</AudioVolume>
+    </Layer>
+  </Layers>
+  <Layouts />
+</Session>
+<ta>
+  <enabled>0</enabled>
+  <triggers></triggers>
+</ta>

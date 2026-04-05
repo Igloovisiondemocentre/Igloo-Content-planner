@@ -1,0 +1,286 @@
+{
+  "brief": "Can Igloo display a PDF, website, and video in one reusable session?",
+  "structure": {
+    "structure_id": "immersive-workspace",
+    "label": "Immersive workspace",
+    "description": "A flexible general-purpose Igloo room suited to guided demos, storytelling, and workshops.",
+    "shape": "rect",
+    "projection_style": "panoramic walls"
+  },
+  "suggested_structure_id": "immersive-workspace",
+  "suggested_structure_reason": "A general immersive workspace is the most flexible starting point for mixed-media storytelling, launch surfaces, and repeatable demos.",
+  "readiness_score": 70,
+  "readiness_label": "Promising with checks",
+  "target_duration_minutes": 10,
+  "estimated_duration_minutes": 10,
+  "duration_gap_minutes": 0,
+  "assessment": {
+    "verdict": "Documented",
+    "confidence": 0.82,
+    "confidence_percent": 82,
+    "operational_flags": [],
+    "validation_posture": "documented media workflow",
+    "platform_capability": "known working",
+    "exact_item_check": "needs checking",
+    "workflow_fit": "good fit",
+    "control_interaction_fit": "straightforward",
+    "recommended_route": "Yes, Igloo already supports this class of content/workflow. The main thing to check is that the exact file, link, or prepared asset behaves as expected. Follow the documented workflow directly and validate the exact path in the local sandbox before broader reuse. Likely runtime path: Assemble the experience as a saved Igloo session so an operator can relaunch it consistently.; Use a WebView layer to display a local or hosted PDF document.",
+    "top_dependencies": [
+      "A PDF asset stored on the Igloo Media Player or exposed by a reachable URL.",
+      "A WebView-capable layer with a reachable website URL.",
+      "A compatible video source or streaming target that the configured layer can access."
+    ],
+    "top_unknowns": [
+      "Coverage gaps by concept: pdf=primary, session=primary, video=primary, website=primary, webview=primary.",
+      "The exact session structure and relaunch flow still need to be chosen for the target operator journey.",
+      "The exact PDF source, hosting path, and display scale still need to be confirmed."
+    ],
+    "evidence": [
+      {
+        "title": "Canvas UI - Viewing PDF Documents | Igloo Documentation",
+        "excerpt": "Viewing a PDF.mp4 Viewing PDF Documents Using the File Browser Create a new WebView using the Canvas Toolbar.",
+        "source_type": "platform_doc",
+        "score": 30.88
+      },
+      {
+        "title": "Data types | Igloo Core Engine API",
+        "excerpt": "IMAGE VIDEO SPOUT YOUTUBE WEBVIEW BLACKMAGIC DATAPATH AJAKONA5 STREAM NDI DESKTOP IGLOOWEB PDF LOOPBACK APPVIEW TIMELINE COMPOSITION CONTENTBANK HOME SessionDatabaseId identifier for a session in the database SessionId identifier for a sess",
+        "source_type": "runtime_api",
+        "score": 30.68
+      },
+      {
+        "title": "Canvas UI - Layers and Sessions | Igloo Documentation",
+        "excerpt": "We are continuing from the previous section, which has one WebView layer already created.",
+        "source_type": "platform_doc",
+        "score": 30.18
+      }
+    ],
+    "practical_summary": "Yes, Igloo already supports this class of content/workflow. The main thing to check is that the exact file, link, or prepared asset behaves as expected."
+  },
+  "selected_content": [
+    {
+      "candidate_id": "candidate-1",
+      "title": "Primary video segment",
+      "content_type": "standard video",
+      "source": "Planned asset",
+      "location": "",
+      "readiness_status": "usable with prep",
+      "readiness_score": 58,
+      "exact_item_status": "not assessed",
+      "notes": [
+        "Prepare the final video in a playback-ready format and confirm audio behavior."
+      ],
+      "recommended_layer_type": "Video",
+      "query_hint": "primary segment explainer video",
+      "resolution_label": "Not selected yet",
+      "recommended_minutes": 3,
+      "selected": true,
+      "thumbnail_url": "",
+      "preview_caption": "",
+      "provider": "",
+      "match_score": 0
+    },
+    {
+      "candidate_id": "candidate-2",
+      "title": "Supporting PDF or lesson document",
+      "content_type": "pdf",
+      "source": "Planned asset",
+      "location": "",
+      "readiness_status": "usable with prep",
+      "readiness_score": 58,
+      "exact_item_status": "not assessed",
+      "notes": [
+        "Export this cleanly for in-room readability and quick operator recall."
+      ],
+      "recommended_layer_type": "WebView",
+      "query_hint": "reference document pdf",
+      "resolution_label": "Not selected yet",
+      "recommended_minutes": 2,
+      "selected": true,
+      "thumbnail_url": "",
+      "preview_caption": "",
+      "provider": "",
+      "match_score": 0
+    },
+    {
+      "candidate_id": "candidate-3",
+      "title": "Supporting website or WebView content",
+      "content_type": "website",
+      "source": "Planned asset",
+      "location": "",
+      "readiness_status": "usable with prep",
+      "readiness_score": 58,
+      "exact_item_status": "not assessed",
+      "notes": [
+        "Confirm the URL, reachability, and whether the operator should switch in and out of it live."
+      ],
+      "recommended_layer_type": "WebView",
+      "query_hint": "Supporting website or WebView content website",
+      "resolution_label": "Not selected yet",
+      "recommended_minutes": 2,
+      "selected": true,
+      "thumbnail_url": "",
+      "preview_caption": "",
+      "provider": "",
+      "match_score": 0
+    },
+    {
+      "candidate_id": "candidate-4",
+      "title": "Launch menu graphics",
+      "content_type": "image",
+      "source": "Planned asset",
+      "location": "",
+      "readiness_status": "usable with prep",
+      "readiness_score": 58,
+      "exact_item_status": "not assessed",
+      "notes": [
+        "Use this for the Home or Content Bank launch surface so switching remains clear and repeatable."
+      ],
+      "recommended_layer_type": "Image",
+      "query_hint": "launch menu graphics",
+      "resolution_label": "Not selected yet",
+      "recommended_minutes": 1,
+      "selected": true,
+      "thumbnail_url": "",
+      "preview_caption": "",
+      "provider": "",
+      "match_score": 0
+    }
+  ],
+  "layer_drafts": [
+    {
+      "layer_id": "draft-layer-1",
+      "label": "Primary video segment",
+      "layer_type": "Video",
+      "purpose": "Primary playback or live-feed layer",
+      "source_candidate_id": "candidate-1",
+      "key_settings": [
+        "Confirm final operator flow"
+      ]
+    },
+    {
+      "layer_id": "draft-layer-2",
+      "label": "Supporting PDF or lesson document",
+      "layer_type": "WebView",
+      "purpose": "Supporting document layer",
+      "source_candidate_id": "candidate-2",
+      "key_settings": [
+        "Confirm final operator flow",
+        "Use readable export",
+        "Check zoom/scale in-room"
+      ]
+    },
+    {
+      "layer_id": "draft-layer-3",
+      "label": "Supporting website or WebView content",
+      "layer_type": "WebView",
+      "purpose": "WebView information layer",
+      "source_candidate_id": "candidate-3",
+      "key_settings": [
+        "Confirm final operator flow",
+        "Confirm reachability",
+        "Choose WebView route"
+      ]
+    },
+    {
+      "layer_id": "draft-layer-4",
+      "label": "Launch menu graphics",
+      "layer_type": "Image",
+      "purpose": "Launch and navigation support layer",
+      "source_candidate_id": "candidate-4",
+      "key_settings": [
+        "Confirm final operator flow",
+        "Use large targets",
+        "Keep labels short",
+        "Test reset flow"
+      ]
+    },
+    {
+      "layer_id": "draft-layer-5",
+      "label": "Content Bank switcher",
+      "layer_type": "ContentBank",
+      "purpose": "Switch between prepared content states without leaving the operator workflow.",
+      "source_candidate_id": null,
+      "key_settings": [
+        "Group content into clear scenarios",
+        "Use large tiles",
+        "Keep the order operator-friendly"
+      ]
+    }
+  ],
+  "workflow_steps": [
+    {
+      "step_id": "step-1",
+      "label": "Open the session and orient the room",
+      "minutes": 1,
+      "summary": "Use the launch surface to start in a clean, repeatable state before switching into the main content.",
+      "source_candidate_id": null
+    },
+    {
+      "step_id": "step-2",
+      "label": "Primary video segment",
+      "minutes": 3,
+      "summary": "Use this as a supporting segment in the session.",
+      "source_candidate_id": "candidate-1"
+    },
+    {
+      "step_id": "step-3",
+      "label": "Supporting PDF or lesson document",
+      "minutes": 2,
+      "summary": "Bring this in when you need a readable reference moment such as a lesson plan, timeline, or specification sheet.",
+      "source_candidate_id": "candidate-2"
+    },
+    {
+      "step_id": "step-4",
+      "label": "Supporting website or WebView content",
+      "minutes": 2,
+      "summary": "Use this as the supporting explainer, dashboard, or reference page in the room.",
+      "source_candidate_id": "candidate-3"
+    },
+    {
+      "step_id": "step-5",
+      "label": "Launch menu graphics",
+      "minutes": 1,
+      "summary": "Use this for diagrams, overlays, menu graphics, or other quick-support visuals.",
+      "source_candidate_id": "candidate-4"
+    },
+    {
+      "step_id": "step-6",
+      "label": "Reset or return to launcher",
+      "minutes": 1,
+      "summary": "End on a stable state so the next operator run starts cleanly.",
+      "source_candidate_id": null
+    }
+  ],
+  "recommendations": [
+    {
+      "title": "Lock the actual content sources",
+      "detail": "Replace the placeholder video, PDF, and website with the exact assets you want, then save them into one reusable session and test the switching order.",
+      "priority": "medium"
+    }
+  ],
+  "use_case_alignment": [],
+  "search_suggestions": [
+    {
+      "mode": "website",
+      "query": "primary segment explainer video"
+    },
+    {
+      "mode": "website",
+      "query": "reference document pdf"
+    },
+    {
+      "mode": "website",
+      "query": "Supporting website or WebView content website"
+    },
+    {
+      "mode": "website",
+      "query": "launch menu graphics"
+    }
+  ],
+  "session_import": null,
+  "demo_plan_notes": [
+    "Client-facing immersive demos usually work best with one hero moment, two or three supporting beats, and one obvious reset path.",
+    "Use the room to show why the experience is spatial, not just to display more media types."
+  ]
+}

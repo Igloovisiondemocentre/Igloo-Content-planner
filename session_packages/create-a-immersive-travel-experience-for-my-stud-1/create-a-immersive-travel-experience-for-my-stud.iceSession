@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+<ProductVersion>
+  <Major>1</Major>
+  <Minor>5</Minor>
+  <Patch>0</Patch>
+  <VersionString>1.5.0.250527-1</VersionString>
+</ProductVersion>
+<Session>
+  <Id>4616ee7f-b702-4213-a999-296634f71ed8</Id>
+  <Name>create a immersive travel experience for my stud</Name>
+  <Description>create a immersive travel experience for my students. We want to see what london is like</Description>
+  <Thumbnail>{default}images\thumbnails\layers\browser.png</Thumbnail>
+  <ReadOnly>0</ReadOnly>
+  <Tags></Tags>
+  <ExportedWithAssets>0</ExportedWithAssets>
+  <Metadata></Metadata>
+  <Layers>
+    <ExportedWithAssets>0</ExportedWithAssets>
+    <Layer streamReceiveBufferSize="100">
+      <Metadata></Metadata>
+      <Name>Main immersive 360 scene</Name>
+      <PositionX>0.50</PositionX>
+      <PositionY>0.50</PositionY>
+      <RatioX>2</RatioX>
+      <RatioY>1</RatioY>
+      <StartCropX>0</StartCropX>
+      <StartCropY>0</StartCropY>
+      <CropSizeX>1</CropSizeX>
+      <CropSizeY>1</CropSizeY>
+      <WrapX>0</WrapX>
+      <WrapY>0</WrapY>
+      <Scale>1.000</Scale>
+      <AspectRatio>0</AspectRatio>
+      <ResizeMode>0</ResizeMode>
+      <PositionMode>0</PositionMode>
+      <ClearColourR>0</ClearColourR>
+      <ClearColourG>0</ClearColourG>
+      <ClearColourB>0</ClearColourB>
+      <ClearColourA>0</ClearColourA>
+      <IsPinned>0</IsPinned>
+      <IsBackground>1</IsBackground>
+      <IsTemplate>0</IsTemplate>
+      <ExePath></ExePath>
+      <UiEnabled>1</UiEnabled>
+      <NamedByUser>1</NamedByUser>
+      <AudioVolume>0.5</AudioVolume>
+      <AudioMute>0</AudioMute>
+      <AudioDelay>0</AudioDelay>
+      <OnAddBat></OnAddBat>
+      <OnRemoveBat></OnRemoveBat>
+      <IsAlwaysOnTop>0</IsAlwaysOnTop>
+      <ControlScreenVis>0</ControlScreenVis>
+      <IsEnabled>1</IsEnabled>
+      <StereoFormat>0</StereoFormat>
+      <UiWidgetX>0.15</UiWidgetX>
+      <UiWidgetY>0.84</UiWidgetY>
+      <UUID>5d96eac7-7209-4026-9047-85e13f80706c</UUID>
+      <Type>YouTube</Type>
+      <URL>http://localhost:800/icetube/?v=Qi3loziMv8E&amp;autoplay=1&amp;loop=1</URL>
+      <SizeX>8000</SizeX>
+      <SizeY>4000</SizeY>
+      <AutoPlay>1</AutoPlay>
+      <AutoLoop>1</AutoLoop>
+      <DynamicRes>0</DynamicRes>
+      <AudioVolume>0.5</AudioVolume>
+      <AudioMute>0</AudioMute>
+      <AudioDelay>0</AudioDelay>
+      <AutoMaxResolution>1</AutoMaxResolution>
+      <RenderPasses>
+        <RenderPass>
+          <Type>PerspectiveExtraction</Type>
+          <ClearColourR>0</ClearColourR>
+          <ClearColourG>0</ClearColourG>
+          <ClearColourB>0</ClearColourB>
+          <ClearColourA>1</ClearColourA>
+          <Heading>0</Heading>
+          <Pitch>0</Pitch>
+          <PitchDirection>0</PitchDirection>
+          <Quality>1</Quality>
+          <UseCustomHead>0</UseCustomHead>
+          <CustomX>0</CustomX>
+          <CustomY>0</CustomY>
+          <CustomZ>0</CustomZ>
+          <UseStretch>0</UseStretch>
+        </RenderPass>
+      </RenderPasses>
+    </Layer>
+    <Layer streamReceiveBufferSize="100">
+      <Metadata></Metadata>
+      <Name>Education web explainer</Name>
+      <PositionX>0.22</PositionX>
+      <PositionY>0.26</PositionY>
+      <RatioX>16</RatioX>
+      <RatioY>9</RatioY>
+      <StartCropX>0</StartCropX>
+      <StartCropY>0</StartCropY>
+      <CropSizeX>1</CropSizeX>
+      <CropSizeY>1</CropSizeY>
+      <WrapX>0</WrapX>
+      <WrapY>0</WrapY>
+      <Scale>0.340</Scale>
+      <AspectRatio>0</AspectRatio>
+      <ResizeMode>0</ResizeMode>
+      <PositionMode>0</PositionMode>
+      <ClearColourR>0</ClearColourR>
+      <ClearColourG>0</ClearColourG>
+      <ClearColourB>0</ClearColourB>
+      <ClearColourA>0</ClearColourA>
+      <IsPinned>1</IsPinned>
+      <IsBackground>0</IsBackground>
+      <IsTemplate>0</IsTemplate>
+      <ExePath></ExePath>
+      <UiEnabled>1</UiEnabled>
+      <NamedByUser>1</NamedByUser>
+      <AudioVolume>0.5</AudioVolume>
+      <AudioMute>0</AudioMute>
+      <AudioDelay>0</AudioDelay>
+      <OnAddBat></OnAddBat>
+      <OnRemoveBat></OnRemoveBat>
+      <IsAlwaysOnTop>1</IsAlwaysOnTop>
+      <ControlScreenVis>0</ControlScreenVis>
+      <IsEnabled>1</IsEnabled>
+      <StereoFormat>0</StereoFormat>
+      <UiWidgetX>0.22</UiWidgetX>
+      <UiWidgetY>0.10</UiWidgetY>
+      <UUID>e8753a6f-1b02-4d6b-b0f1-3baed95f00d3</UUID>
+      <Type>WebView</Type>
+      <URL>https://www.ngttravel.com/</URL>
+      <SizeX>1920</SizeX>
+      <SizeY>1080</SizeY>
+      <DynamicRes>1</DynamicRes>
+      <UseCustomFPS>0</UseCustomFPS>
+      <CustomFPSValue>60</CustomFPSValue>
+      <UseAlpha>0</UseAlpha>
+      <AllowPopups>0</AllowPopups>
+      <AudioVolume>0.5</AudioVolume>
+      <AudioMute>0</AudioMute>
+      <AudioDelay>0</AudioDelay>
+      <ZoomLevel>0</ZoomLevel>
+      <BackgroundColourR>0</BackgroundColourR>
+      <BackgroundColourG>0</BackgroundColourG>
+      <BackgroundColourB>0</BackgroundColourB>
+      <BackgroundColourA>1</BackgroundColourA>
+    </Layer>
+    <Layer streamReceiveBufferSize="100">
+      <Metadata></Metadata>
+      <Name>Intro or reset media segment</Name>
+      <PositionX>0.78</PositionX>
+      <PositionY>0.26</PositionY>
+      <RatioX>16</RatioX>
+      <RatioY>9</RatioY>
+      <StartCropX>0</StartCropX>
+      <StartCropY>0</StartCropY>
+      <CropSizeX>1</CropSizeX>
+      <CropSizeY>1</CropSizeY>
+      <WrapX>0</WrapX>
+      <WrapY>0</WrapY>
+      <Scale>0.320</Scale>
+      <AspectRatio>0</AspectRatio>
+      <ResizeMode>0</ResizeMode>
+      <PositionMode>0</PositionMode>
+      <ClearColourR>0</ClearColourR>
+      <ClearColourG>0</ClearColourG>
+      <ClearColourB>0</ClearColourB>
+      <ClearColourA>0</ClearColourA>
+      <IsPinned>1</IsPinned>
+      <IsBackground>0</IsBackground>
+      <IsTemplate>0</IsTemplate>
+      <ExePath></ExePath>
+      <UiEnabled>1</UiEnabled>
+      <NamedByUser>1</NamedByUser>
+      <AudioVolume>0.5</AudioVolume>
+      <AudioMute>0</AudioMute>
+      <AudioDelay>0</AudioDelay>
+      <OnAddBat></OnAddBat>
+      <OnRemoveBat></OnRemoveBat>
+      <IsAlwaysOnTop>1</IsAlwaysOnTop>
+      <ControlScreenVis>0</ControlScreenVis>
+      <IsEnabled>1</IsEnabled>
+      <StereoFormat>0</StereoFormat>
+      <UiWidgetX>0.78</UiWidgetX>
+      <UiWidgetY>0.10</UiWidgetY>
+      <UUID>eadc89b9-21ef-4f01-829c-faeced7f57b3</UUID>
+      <Type>YouTube</Type>
+      <URL>http://localhost:800/icetube/?v=KGerjHMa90s&amp;autoplay=1&amp;loop=1</URL>
+      <SizeX>1920</SizeX>
+      <SizeY>1080</SizeY>
+      <AutoPlay>1</AutoPlay>
+      <AutoLoop>1</AutoLoop>
+      <DynamicRes>0</DynamicRes>
+      <AudioVolume>0.5</AudioVolume>
+      <AudioMute>0</AudioMute>
+      <AudioDelay>0</AudioDelay>
+      <AutoMaxResolution>1</AutoMaxResolution>
+      <RenderPasses>
+        <RenderPass>
+          <Type>PerspectiveExtraction</Type>
+          <ClearColourR>0</ClearColourR>
+          <ClearColourG>0</ClearColourG>
+          <ClearColourB>0</ClearColourB>
+          <ClearColourA>1</ClearColourA>
+          <Heading>0</Heading>
+          <Pitch>0</Pitch>
+          <PitchDirection>0</PitchDirection>
+          <Quality>1</Quality>
+          <UseCustomHead>0</UseCustomHead>
+          <CustomX>0</CustomX>
+          <CustomY>0</CustomY>
+          <CustomZ>0</CustomZ>
+          <UseStretch>0</UseStretch>
+        </RenderPass>
+      </RenderPasses>
+    </Layer>
+  </Layers>
+  <Layouts>
+    <Layout name="Default Layout">
+      <Region name="Front" left="0" right="0.236" bottom="0.3549" top="0" />
+      <Region name="Right" left="0.236" right="0.5" bottom="0.3549" top="0" />
+      <Region name="Back" left="0.5" right="0.736" bottom="0.3549" top="0" />
+      <Region name="Left" left="0.736" right="1" bottom="0.3549" top="0" />
+      <Region name="Walls" left="0" right="1" bottom="0.3549" top="0" />
+      <Region name="Floor" left="0.5" right="0.736" bottom="1" top="0.3549" />
+      <Region name="3 walls" left="0.236" right="1" bottom="0.3549" top="0" />
+      <Region name="Touch walls" left="0.5" right="1" bottom="0.355" top="0" />
+    </Layout>
+  </Layouts>
+</Session>
+<ta>
+  <enabled>0</enabled>
+  <triggers></triggers>
+</ta>

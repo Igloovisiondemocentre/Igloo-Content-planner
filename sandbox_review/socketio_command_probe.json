@@ -1,0 +1,89 @@
+[
+  {
+    "event": "connect",
+    "args": []
+  },
+  {
+    "event": "igloo-ready",
+    "args": []
+  },
+  {
+    "event": "state",
+    "args": [
+      {
+        "clips": {
+          "clipbanks": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": [],
+            "6": [],
+            "7": [],
+            "8": []
+          },
+          "currentClipBank": -1,
+          "currentClipbank": -1
+        },
+        "disp": {},
+        "3D": {
+          "warper3DEnabled": null,
+          "toggle": null
+        },
+        "warping": {},
+        "controller": {},
+        "recording": {
+          "active": null
+        },
+        "image": {
+          "tilt": {}
+        },
+        "capture": {
+          "numbered": [],
+          "selected": {},
+          "currentlySelected": 0
+        },
+        "externalApplication": {},
+        "web": {
+          "tabsets": [],
+          "bookmarks": [],
+          "tabs": []
+        },
+        "googleEarth": {},
+        "mov": {}
+      }
+    ]
+  },
+  {
+    "event": "capture-sources",
+    "args": [
+      []
+    ]
+  },
+  {
+    "event": "error",
+    "args": [
+      "Incorrect command: app/ping"
+    ]
+  },
+  {
+    "event": "error",
+    "args": [
+      "Incorrect command: sessionList/get"
+    ]
+  },
+  {
+    "event": "error",
+    "args": [
+      "Incorrect command: content/sessionList/get"
+    ]
+  },
+  {
+    "event": "disconnect",
+    "args": []
+  },
+  {
+    "event": "__disconnect_final",
+    "args": []
+  }
+]

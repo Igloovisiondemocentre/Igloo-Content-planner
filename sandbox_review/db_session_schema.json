@@ -1,0 +1,18 @@
+{
+  "tables": [
+    "__drizzle_migrations",
+    "krpano_wrapper_config",
+    "kuula_config",
+    "kuula_favourites",
+    "matterport_config",
+    "matterport_favourites",
+    "matterport_history",
+    "model_viewer_models",
+    "sqlite_sequence",
+    "streetview_config",
+    "streetview_favourites_panoramas",
+    "streetview_favourites_routes",
+    "streetview_favourites_slideshows"
+  ],
+  "interesting": {}
+}

@@ -1,0 +1,278 @@
+{
+  "draft": {
+    "name": "create a immersive travel experience for",
+    "brief": "create a immersive travel experience for my students. We want to see what london is like",
+    "structure": {
+      "structure_id": "cube",
+      "label": "Cube",
+      "description": "A compact immersive room for focused demos, classrooms, and collaborative reviews.",
+      "shape": "cube",
+      "projection_style": "box room"
+    },
+    "suggested_structure_id": "cube",
+    "suggested_structure_reason": "A cube-style room works well for guided classes and compact operator-led sessions where the group needs a focused front-facing teaching flow.",
+    "readiness_score": 77,
+    "readiness_label": "Promising with checks",
+    "target_duration_minutes": 10,
+    "estimated_duration_minutes": 10,
+    "duration_gap_minutes": 0,
+    "assessment": {
+      "verdict": "Supported with configuration",
+      "confidence": 0.86,
+      "confidence_percent": 86,
+      "operational_flags": [],
+      "validation_posture": "documented media workflow",
+      "platform_capability": "known working",
+      "exact_item_check": "likely fine",
+      "workflow_fit": "good fit",
+      "control_interaction_fit": "straightforward",
+      "recommended_route": "Yes, Igloo already supports this class of content/workflow. The main thing to check is that the exact file, link, or prepared asset behaves as expected. Treat this as a configuration-led workflow. Likely runtime path: Use the documented 360-degree content workflow for panoramic imagery or 360 video.; A likely supported route is the dedicated YouTube 360 workflow, or a hosted/browser-based YouTube 360 path, for readily available immersive video content. Likely content-prep path: Source or create the 360 imagery/video before loading it into Igloo.",
+      "top_dependencies": [
+        "A compatible 360 image, 360 video, or hosted 360 content source that the chosen layer can access.",
+        "Operator review before client-facing commitment if the answer carries ambiguity or risk."
+      ],
+      "top_unknowns": [
+        "Coverage gaps by concept: 360_content=primary.",
+        "The final 360 asset source and whether to use hosted or local media still need to be chosen.",
+        "The team still needs to decide whether hosted YouTube 360 or locally prepared media is the better operational choice."
+      ],
+      "evidence": [
+        {
+          "title": "Desktop UI - Building a Homescreen, part 1 | Igloo Documentation",
+          "excerpt": "An Igloo Core Engine homescreen acts as a landing page for the immersive space and presents the user with commonly used shortcuts such as recent sessions, favourite content and integrated applications.",
+          "source_type": "platform_doc",
+          "score": 15.48
+        },
+        {
+          "title": "Triggers and Actions | Igloo Documentation",
+          "excerpt": "The Triggers and Actions system allows users and integrators to create customisable experiences by defining events (Triggers) that initiate specific Actions.",
+          "source_type": "platform_doc",
+          "score": 13.5
+        },
+        {
+          "title": "Desktop UI - Exporting and Importing Sessions | Igloo Documentation",
+          "excerpt": "These files can be then copied to other Igloo Immersive Media Players\u2026",
+          "source_type": "platform_doc",
+          "score": 13.5
+        }
+      ],
+      "practical_summary": "Yes, Igloo already supports this class of content/workflow. The main thing to check is that the exact file, link, or prepared asset behaves as expected."
+    },
+    "selected_content": [
+      {
+        "candidate_id": "candidate-1",
+        "title": "4K 360\u00b0 VR | Immersive Travel Experience - YouTube",
+        "content_type": "360 video",
+        "source": "youtube.com",
+        "location": "https://www.youtube.com/watch?v=Qi3loziMv8E",
+        "readiness_status": "usable with prep",
+        "readiness_score": 72,
+        "exact_item_status": "likely fine",
+        "notes": [
+          "Use a local 360 master or the documented YouTube 360 route when suitable footage already exists.",
+          "Prefer 4K or higher for room-scale playback.",
+          "Igloo already supports YouTube 360 as a workflow class when the hosted content behaves as expected.",
+          "Confirm that the exact video is actually 4K+ and suitable for in-room playback."
+        ],
+        "recommended_layer_type": "WebView",
+        "query_hint": "immersive travel my YouTube 360 4K",
+        "resolution_label": "4K+ indicated",
+        "recommended_minutes": 4,
+        "selected": true,
+        "thumbnail_url": "https://i.ytimg.com/vi/Qi3loziMv8E/hqdefault.jpg",
+        "preview_caption": "Suggested immersive source",
+        "provider": "DuckDuckGo web search",
+        "match_score": 112
+      },
+      {
+        "candidate_id": "candidate-2",
+        "title": "NGT | Educational Trips From The UKs Leading Travel Experts",
+        "content_type": "website",
+        "source": "ngttravel.com",
+        "location": "https://www.ngttravel.com/",
+        "readiness_status": "needs checking",
+        "readiness_score": 58,
+        "exact_item_status": "needs checking",
+        "notes": [
+          "Use this for the explainer page, process walkthrough, or lightweight interactive reference.",
+          "Exact item compatibility still needs checking."
+        ],
+        "recommended_layer_type": "WebView",
+        "query_hint": "immersive travel my education website",
+        "resolution_label": "Unknown",
+        "recommended_minutes": 2,
+        "selected": true,
+        "thumbnail_url": "",
+        "preview_caption": "NGT | Educational Trips From The UKs Leading Travel Experts | We offer specialised educational trips for schools, colleges, sixth forms, universities and beyond. Start planning your next educational trip or tour with us today.",
+        "provider": "DuckDuckGo web search",
+        "match_score": 36
+      },
+      {
+        "candidate_id": "candidate-3",
+        "title": "London - AirPano VR",
+        "content_type": "standard video",
+        "source": "sample catalog",
+        "location": "https://www.youtube.com/watch?v=KGerjHMa90s",
+        "readiness_status": "usable with prep",
+        "readiness_score": 72,
+        "exact_item_status": "likely fine",
+        "notes": [
+          "Add a short opener, branded reset loop, or recap segment so the room has a cleaner start/end state.",
+          "Fallback from the local sample-session catalogue because live search was weak or too generic.",
+          "Sample session path: C:\\igloo\\igloo-core-service\\Igloo Agent\\Example Sessions\\London - AirPano VR\\London - AirPano VR.iceSession",
+          "Primary example layer: London, United Kingdom. Virtual travel. 360 video in 8K",
+          "Sample route comes from <URL> in the exported session."
+        ],
+        "recommended_layer_type": "WebView",
+        "query_hint": "immersive travel my intro video",
+        "resolution_label": "8K indicated",
+        "recommended_minutes": 2,
+        "selected": true,
+        "thumbnail_url": "",
+        "preview_caption": "Curated fallback example",
+        "provider": "Example Sessions: London - AirPano VR",
+        "match_score": 52
+      }
+    ],
+    "layer_drafts": [
+      {
+        "layer_id": "draft-layer-1",
+        "label": "Main immersive 360 scene",
+        "layer_type": "Video",
+        "purpose": "Main immersive background layer",
+        "source_candidate_id": "candidate-1",
+        "key_settings": [
+          "Confirm final operator flow",
+          "Prefer 4K+ source",
+          "Check perspective route",
+          "Check audio sync"
+        ]
+      },
+      {
+        "layer_id": "draft-layer-2",
+        "label": "Education web explainer",
+        "layer_type": "WebView",
+        "purpose": "WebView information layer",
+        "source_candidate_id": "candidate-2",
+        "key_settings": [
+          "Confirm final operator flow",
+          "Confirm reachability",
+          "Choose WebView route"
+        ]
+      },
+      {
+        "layer_id": "draft-layer-3",
+        "label": "Intro or reset media segment",
+        "layer_type": "Video",
+        "purpose": "Primary playback or live-feed layer",
+        "source_candidate_id": "candidate-3",
+        "key_settings": [
+          "Confirm final operator flow"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      {
+        "step_id": "derived-open",
+        "label": "Open the session and orient the room",
+        "minutes": 1,
+        "summary": "Use the launch surface to start in a clean, repeatable state."
+      },
+      {
+        "step_id": "derived-1",
+        "label": "4K 360\u00b0 VR | Immersive Travel Experience - YouTube",
+        "minutes": 4,
+        "summary": "Use this as one of the prepared beats in the operator flow.",
+        "source_candidate_id": "candidate-1"
+      },
+      {
+        "step_id": "derived-2",
+        "label": "NGT | Educational Trips From The UKs Leading Travel Experts",
+        "minutes": 2,
+        "summary": "Use this as one of the prepared beats in the operator flow.",
+        "source_candidate_id": "candidate-2"
+      },
+      {
+        "step_id": "derived-3",
+        "label": "London - AirPano VR",
+        "minutes": 2,
+        "summary": "Use this as one of the prepared beats in the operator flow.",
+        "source_candidate_id": "candidate-3"
+      },
+      {
+        "step_id": "derived-reset",
+        "label": "Reset or return to launcher",
+        "minutes": 1,
+        "summary": "End on a stable state so the next run starts cleanly."
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Extend the runtime",
+        "detail": "This draft only covers about 9 minutes. Add another supporting beat such as archival stills, a PDF panel, or a reference website to reach at least 10 minutes cleanly.",
+        "priority": "high"
+      },
+      {
+        "title": "Keep the lesson to a few strong teaching beats",
+        "detail": "Plan the room like a class: immersive opener, guided explanation, one interaction or reveal moment, then recap/reset. Too many states make the lesson feel messy rather than immersive.",
+        "priority": "medium"
+      }
+    ],
+    "use_case_alignment": [
+      "Comparable Igloo use-case pattern: immersive classrooms and teaching spaces use repeatable sessions, virtual field trips, and operator-guided learning content."
+    ],
+    "search_suggestions": [
+      {
+        "mode": "youtube_360",
+        "query": "immersive travel my YouTube 360 4K"
+      },
+      {
+        "mode": "website",
+        "query": "immersive travel my education website"
+      },
+      {
+        "mode": "website",
+        "query": "immersive travel my intro video"
+      }
+    ],
+    "session_import": null,
+    "demo_plan_notes": [
+      "Start with one immersive hook that sets the scene in the first 60-90 seconds, then move into guided teaching beats.",
+      "Keep the teacher or operator flow to a small number of clear states so the lesson feels structured rather than exploratory by accident.",
+      "Use interaction sparingly: one reveal, vote, or branch moment is stronger than lots of small clicks in a classroom demo.",
+      "Client-facing immersive demos usually work best with one hero moment, two or three supporting beats, and one obvious reset path."
+    ]
+  },
+  "package_summary": {
+    "brief": "create a immersive travel experience for my students. We want to see what london is like",
+    "session_name": "create a immersive travel experience for my stud",
+    "exported_with_assets": false,
+    "asset_records": [
+      {
+        "title": "Main immersive 360 scene",
+        "type": "url",
+        "path": "https://www.youtube.com/watch?v=Qi3loziMv8E",
+        "reference_shortcut": "C:\\igloo\\igloo-core-service\\Igloo Agent\\evidence\\session_packages\\create-a-immersive-travel-experience-for-my-stud\\References\\Main-immersive-360-scene.url",
+        "layer_type": "YouTube"
+      },
+      {
+        "title": "Education web explainer",
+        "type": "url",
+        "path": "https://www.ngttravel.com/",
+        "reference_shortcut": "C:\\igloo\\igloo-core-service\\Igloo Agent\\evidence\\session_packages\\create-a-immersive-travel-experience-for-my-stud\\References\\Education-web-explainer.url",
+        "layer_type": "WebView"
+      },
+      {
+        "title": "Intro or reset media segment",
+        "type": "url",
+        "path": "https://www.youtube.com/watch?v=KGerjHMa90s",
+        "reference_shortcut": "C:\\igloo\\igloo-core-service\\Igloo Agent\\evidence\\session_packages\\create-a-immersive-travel-experience-for-my-stud\\References\\Intro-or-reset-media-segment.url",
+        "layer_type": "YouTube"
+      }
+    ],
+    "uses_placeholders": false,
+    "selected_content_count": 3,
+    "layer_count": 3,
+    "session_import_basis": null
+  }
+}

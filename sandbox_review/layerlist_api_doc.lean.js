@@ -1,0 +1,1 @@
+import{o as e,c as a,Q as t}from"./chunks/framework.ef2f0aa1.js";const r=t("",8),s=[r],h=JSON.parse('{"title":"Layer List API","description":"","frontmatter":{},"headers":[],"relativePath":"layer-list/index.md","filePath":"layer-list/index.md"}'),i={name:"layer-list/index.md"},d=Object.assign(i,{setup(l){return(n,o)=>(e(),a("div",null,s))}});export{h as __pageData,d as default};

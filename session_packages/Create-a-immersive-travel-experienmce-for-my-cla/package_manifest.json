@@ -1,0 +1,222 @@
+{
+  "draft": {
+    "name": "Create a immersive travel experienmce fo",
+    "brief": "Create a immersive travel experienmce for my class. we want to go to madrid in spain",
+    "structure": {
+      "structure_id": "immersive-workspace",
+      "label": "Immersive workspace",
+      "description": "A flexible general-purpose Igloo room suited to guided demos, storytelling, and workshops.",
+      "shape": "rect",
+      "projection_style": "panoramic walls"
+    },
+    "suggested_structure_id": "immersive-workspace",
+    "suggested_structure_reason": "A general immersive workspace is the most flexible starting point for mixed-media storytelling, launch surfaces, and repeatable demos.",
+    "setup_archetype": "immersive_hero_360",
+    "setup_summary": "Use one main immersive hero scene, then keep any PDF, website, archive, or support clips as smaller reference panels or later switch states. Current lead items: Main immersive 360 scene, Intro or reset media segment.",
+    "readiness_score": 73,
+    "readiness_label": "Promising with checks",
+    "target_duration_minutes": 10,
+    "estimated_duration_minutes": 7,
+    "duration_gap_minutes": 3,
+    "assessment": {
+      "verdict": "Supported with configuration",
+      "confidence": 0.86,
+      "confidence_percent": 86,
+      "operational_flags": [],
+      "validation_posture": "documented media workflow",
+      "platform_capability": "known working",
+      "exact_item_check": "likely fine",
+      "workflow_fit": "good fit",
+      "control_interaction_fit": "straightforward",
+      "recommended_route": "Yes, Igloo already supports this class of content/workflow. The main thing to check is that the exact file, link, or prepared asset behaves as expected. Treat this as a configuration-led workflow. Likely runtime path: Use the documented 360-degree content workflow for panoramic imagery or 360 video.; A likely supported route is the dedicated YouTube 360 workflow, or a hosted/browser-based YouTube 360 path, for readily available immersive video content. Likely content-prep path: Source or create the 360 imagery/video before loading it into Igloo.",
+      "top_dependencies": [
+        "A compatible 360 image, 360 video, or hosted 360 content source that the chosen layer can access.",
+        "Operator review before client-facing commitment if the answer carries ambiguity or risk."
+      ],
+      "top_unknowns": [
+        "Coverage gaps by concept: 360_content=primary.",
+        "The final 360 asset source and whether to use hosted or local media still need to be chosen.",
+        "The team still needs to decide whether hosted YouTube 360 or locally prepared media is the better operational choice."
+      ],
+      "evidence": [
+        {
+          "title": "Triggers and Actions | Igloo Documentation",
+          "excerpt": "The Triggers and Actions system allows users and integrators to create customisable experiences by defining events (Triggers) that initiate specific Actions.",
+          "source_type": "platform_doc",
+          "score": 13.5
+        },
+        {
+          "title": "Desktop UI - Building a Homescreen, part 1 | Igloo Documentation",
+          "excerpt": "An Igloo Core Engine homescreen acts as a landing page for the immersive space and presents the user with commonly used shortcuts such as recent sessions, favo\u2026",
+          "source_type": "platform_doc",
+          "score": 13.5
+        },
+        {
+          "title": "Desktop UI - Exporting and Importing Sessions | Igloo Documentation",
+          "excerpt": "These files can be then copied to other Igloo Immersive Media Players\u2026",
+          "source_type": "platform_doc",
+          "score": 13.5
+        }
+      ],
+      "practical_summary": "Yes, Igloo already supports this class of content/workflow. The main thing to check is that the exact file, link, or prepared asset behaves as expected."
+    },
+    "selected_content": [
+      {
+        "candidate_id": "candidate-1",
+        "title": "4K 360\u00b0 VR | Immersive Travel Experience - YouTube",
+        "content_type": "360 video",
+        "source": "youtube.com",
+        "location": "https://www.youtube.com/watch?v=Qi3loziMv8E",
+        "readiness_status": "usable with prep",
+        "readiness_score": 72,
+        "exact_item_status": "likely fine",
+        "notes": [
+          "Use a local 360 master or the documented YouTube 360 route when suitable footage already exists.",
+          "Prefer 4K or higher for room-scale playback.",
+          "Igloo already supports YouTube 360 as a workflow class when the hosted content behaves as expected.",
+          "Confirm that the exact video is actually 4K+ and suitable for in-room playback."
+        ],
+        "recommended_layer_type": "WebView",
+        "query_hint": "immersive experienmce class YouTube 360 4K",
+        "resolution_label": "4K+ indicated",
+        "recommended_minutes": 4,
+        "selected": true,
+        "thumbnail_url": "https://i.ytimg.com/vi/Qi3loziMv8E/hqdefault.jpg",
+        "preview_caption": "Suggested immersive source",
+        "provider": "DuckDuckGo web search",
+        "match_score": 110,
+        "setup_archetype": "immersive_hero_360",
+        "layout_role": "immersive background",
+        "setup_notes": [
+          "This should read as the main wraparound scene."
+        ],
+        "setup_summary": ""
+      },
+      {
+        "candidate_id": "candidate-2",
+        "title": "Fire Safety",
+        "content_type": "standard video",
+        "source": "sample catalog",
+        "location": "C:\\Program Files (x86)\\Igloo Vision\\Igloo Fire Safety\\Fire Safety.exe",
+        "readiness_status": "usable with prep",
+        "readiness_score": 72,
+        "exact_item_status": "likely fine",
+        "notes": [
+          "Add a short opener, branded reset loop, or recap segment so the room has a cleaner start/end state.",
+          "Fallback from the local sample-session catalogue because live search was weak or too generic.",
+          "Sample session path: C:\\igloo\\igloo-core-service\\Igloo Agent\\Example Sessions\\Fire Safety\\Fire Safety.iceSession",
+          "Primary example layer: Fire Safety",
+          "Sample route comes from <ExePath> in the exported session.",
+          "Setup archetype: native training simulation."
+        ],
+        "recommended_layer_type": "Spout",
+        "query_hint": "immersive experienmce class intro video",
+        "resolution_label": "Immersive route",
+        "recommended_minutes": 2,
+        "selected": true,
+        "thumbnail_url": "",
+        "preview_caption": "Curated fallback example",
+        "provider": "Example Sessions: Fire Safety",
+        "match_score": 60,
+        "setup_archetype": "immersive_hero_360",
+        "layout_role": "pinned support",
+        "setup_notes": [],
+        "setup_summary": "Immersive app-stream training or simulation scene."
+      }
+    ],
+    "layer_drafts": [
+      {
+        "layer_id": "draft-layer-1",
+        "label": "Main immersive 360 scene",
+        "layer_type": "Video",
+        "purpose": "Main immersive background layer",
+        "source_candidate_id": "candidate-1",
+        "key_settings": [
+          "Confirm final operator flow",
+          "Prefer 4K+ source",
+          "Check perspective route",
+          "Check audio sync"
+        ]
+      },
+      {
+        "layer_id": "draft-layer-2",
+        "label": "Intro or reset media segment",
+        "layer_type": "Video",
+        "purpose": "Primary playback or live-feed layer",
+        "source_candidate_id": "candidate-2",
+        "key_settings": [
+          "Confirm final operator flow"
+        ]
+      }
+    ],
+    "workflow_steps": [
+      {
+        "step_id": "derived-1",
+        "label": "4K 360\u00b0 VR | Immersive Travel Experience - YouTube",
+        "minutes": 4,
+        "summary": "Use this as one of the prepared beats in the operator flow.",
+        "source_candidate_id": "candidate-1"
+      },
+      {
+        "step_id": "derived-2",
+        "label": "Fire Safety",
+        "minutes": 2,
+        "summary": "Use this as one of the prepared beats in the operator flow.",
+        "source_candidate_id": "candidate-2"
+      },
+      {
+        "step_id": "derived-reset",
+        "label": "Reset or return to launcher",
+        "minutes": 1,
+        "summary": "End on a stable state so the next run starts cleanly."
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Extend the runtime",
+        "detail": "This draft only covers about 7 minutes. Add another supporting beat such as archival stills, a PDF panel, or a reference website to reach at least 10 minutes cleanly.",
+        "priority": "high"
+      }
+    ],
+    "use_case_alignment": [],
+    "search_suggestions": [
+      {
+        "mode": "youtube_360",
+        "query": "immersive experienmce class YouTube 360 4K"
+      },
+      {
+        "mode": "website",
+        "query": "immersive experienmce class intro video"
+      }
+    ],
+    "session_import": null,
+    "demo_plan_notes": [
+      "Client-facing immersive demos usually work best with one hero moment, two or three supporting beats, and one obvious reset path.",
+      "Use the room to show why the experience is spatial, not just to display more media types."
+    ]
+  },
+  "package_summary": {
+    "brief": "Create a immersive travel experienmce for my class. we want to go to madrid in spain",
+    "session_name": "Create a immersive travel experienmce for my cla",
+    "exported_with_assets": false,
+    "asset_records": [
+      {
+        "title": "Main immersive 360 scene",
+        "type": "url",
+        "path": "https://www.youtube.com/watch?v=Qi3loziMv8E",
+        "reference_shortcut": "C:\\igloo\\igloo-core-service\\Igloo Agent\\evidence\\session_packages\\Create-a-immersive-travel-experienmce-for-my-cla\\References\\Main-immersive-360-scene.url",
+        "layer_type": "YouTube"
+      },
+      {
+        "title": "Intro or reset media segment",
+        "type": "placeholder",
+        "package_path": "C:\\igloo\\igloo-core-service\\Igloo Agent\\evidence\\session_packages\\Create-a-immersive-travel-experienmce-for-my-cla\\Assets\\Intro-or-reset-media-segment.exe.placeholder.txt",
+        "layer_type": "Spout"
+      }
+    ],
+    "uses_placeholders": true,
+    "selected_content_count": 2,
+    "layer_count": 2,
+    "session_import_basis": null
+  }
+}

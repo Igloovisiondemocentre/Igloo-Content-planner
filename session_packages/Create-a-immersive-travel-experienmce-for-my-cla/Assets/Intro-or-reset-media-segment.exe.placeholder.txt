@@ -1,0 +1,5 @@
+Title: Intro or reset media segment
+Content type: standard video
+Suggested query: immersive experienmce class intro video
+
+This is a builder placeholder. Replace it with the real file, URL, or app route before live use.

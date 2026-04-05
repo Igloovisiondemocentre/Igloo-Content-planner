@@ -1,0 +1,373 @@
+﻿{
+  "project": "Igloo Experience Builder Pilot",
+  "phase": "Experience Feasibility Copilot",
+  "index_exists": true,
+  "manifest_exists": true,
+  "pdf_ingestion_available": true,
+  "pdfs_found": 4,
+  "runtime_api_source": {
+    "status": "ok",
+    "url": "https://api.igloovision.com/1.5.0/",
+    "length": "38789"
+  },
+  "platform_docs_source": {
+    "status": "ok",
+    "url": "https://docs.igloovision.com/documentation/current",
+    "length": "59952"
+  },
+  "sandbox_configured": true,
+  "sandbox_target": {
+    "host": "127.0.0.1",
+    "port": 800,
+    "transport": "http"
+  },
+  "sandbox_validation": {
+    "state": "validated",
+    "summary": "Safe HTTP discovery probes succeeded against the local Igloo sandbox surfaces.",
+    "details": [
+      "Control panel root reachable at http://127.0.0.1:800/: Igloo Control Panel - Sources.",
+      "Read-only sources API reachable: ignored sources = IGLOOHOME.",
+      "Socket.IO handshake reachable: upgrades = websocket; pingInterval = 25000ms; pingTimeout = 20000ms.",
+      "Streetview sidecar surfaces are reachable on port 9070."
+    ],
+    "surfaces": [
+      {
+        "name": "control_panel_root",
+        "ok": true,
+        "url": "http://127.0.0.1:800/",
+        "status_code": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "excerpt": "Igloo Control Panel - Sources",
+        "error": null
+      },
+      {
+        "name": "ignore_list_api",
+        "ok": true,
+        "url": "http://127.0.0.1:800/api/sources/ignoreList",
+        "status_code": 200,
+        "content_type": "application/json; charset=utf-8",
+        "excerpt": "ignored sources = IGLOOHOME",
+        "error": null
+      },
+      {
+        "name": "socketio_handshake",
+        "ok": true,
+        "url": "http://127.0.0.1:800/socket.io/?EIO=4&transport=polling",
+        "status_code": 200,
+        "content_type": "text/plain; charset=UTF-8",
+        "excerpt": "upgrades = websocket; pingInterval = 25000ms; pingTimeout = 20000ms",
+        "error": null
+      },
+      {
+        "name": "streetview_root",
+        "ok": true,
+        "url": "http://127.0.0.1:9070/",
+        "status_code": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "excerpt": "Streetview endpoints",
+        "error": null
+      },
+      {
+        "name": "streetview_control",
+        "ok": true,
+        "url": "http://127.0.0.1:9070/control/",
+        "status_code": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "excerpt": "Igloo Streetview Service",
+        "error": null
+      },
+      {
+        "name": "streetview_iglooview",
+        "ok": true,
+        "url": "http://127.0.0.1:9070/iglooview/",
+        "status_code": 200,
+        "content_type": "text/html; charset=UTF-8",
+        "excerpt": "",
+        "error": null
+      }
+    ]
+  },
+  "sandbox_live_state": {
+    "state": "validated",
+    "summary": "Read-only live source state was collected from the running sandbox.",
+    "details": [
+      "Connected to the local sandbox Socket.IO surface.",
+      "Live source snapshot captured 0 sources; the sandbox is reachable but no capture sources are currently exposed.",
+      "Socket.IO connection closed."
+    ],
+    "event_names": [
+      "capture-sources"
+    ],
+    "source_snapshot": {
+      "summary": "Live source snapshot captured 0 sources; the sandbox is reachable but no capture sources are currently exposed.",
+      "source_count": 0,
+      "available_count": 0,
+      "enabled_count": 0,
+      "selected_names": [],
+      "input_types": [],
+      "sources": []
+    }
+  },
+  "local_install": {
+    "configured_root": "C:\\igloo\\igloo-core-service",
+    "detected_root": "C:\\igloo\\igloo-core-service",
+    "status": "detected",
+    "summary": "A nearby local Igloo Core Engine install was detected and inspected read-only.",
+    "write_actions_enabled": false,
+    "files": {
+      "config_exists": true,
+      "executable_exists": true,
+      "database_exists": true,
+      "logs_dir_exists": true,
+      "layers_dir_exists": true
+    },
+    "executable": {
+      "exists": true,
+      "path": "C:\\igloo\\igloo-core-service\\igloo-core-service.exe",
+      "size_bytes": 351565322,
+      "last_modified": "2025-03-17T15:29:36"
+    },
+    "database": {
+      "exists": true,
+      "path": "C:\\igloo\\igloo-core-service\\not_ice.db",
+      "size_bytes": 94208,
+      "last_modified": "2025-04-07T11:24:50.091343"
+    },
+    "ports": {
+      "service_http": 800,
+      "service_https": 801,
+      "service_osc": 9003,
+      "ice_udp": 10001,
+      "controller_service": 10000,
+      "open_stage_control": 802
+    },
+    "features": {
+      "controller_clients": [
+        "localhost:9007",
+        "localhost:9008"
+      ],
+      "control_panel_tabs": [
+        "default"
+      ],
+      "control_panel_apps": [
+        "matterport",
+        "streetview",
+        "krpano",
+        "warping",
+        "default"
+      ],
+      "content_folder_paths": [
+        "C:\\igloo\\content"
+      ],
+      "layer_files": {
+        "exists": true,
+        "count": 1,
+        "items": [
+          {
+            "name": "clickshare.iceLayer",
+            "size_bytes": 1610,
+            "last_modified": "2024-10-23T09:47:50"
+          }
+        ]
+      },
+      "recent_logs": {
+        "exists": true,
+        "count": 4,
+        "items": [
+          {
+            "name": "igloo-core-service-2026-04-05.log",
+            "size_bytes": 1959,
+            "last_modified": "2026-04-05T13:17:19.974007"
+          },
+          {
+            "name": "igloo-core-service-2026-04-04.log",
+            "size_bytes": 666,
+            "last_modified": "2026-04-04T14:57:52.700414"
+          },
+          {
+            "name": "igloo-core-service-2026-03-31.log",
+            "size_bytes": 1381,
+            "last_modified": "2026-03-31T09:31:30.322009"
+          },
+          {
+            "name": "igloo-core-service-2026-03-30.log",
+            "size_bytes": 766,
+            "last_modified": "2026-03-30T15:42:08.977469"
+          }
+        ]
+      },
+      "parsed_layers": {
+        "exists": true,
+        "count": 1,
+        "items": [
+          {
+            "file": "clickshare.iceLayer",
+            "name": "Clickshare",
+            "type": "NDI",
+            "enabled": true,
+            "pinned": false,
+            "background": false,
+            "ui_enabled": true,
+            "uuid": "c1a4610c-a8c7-8e4b-6c38-9b2e556457b3",
+            "size": {
+              "x": 1920,
+              "y": 1080
+            }
+          }
+        ]
+      },
+      "tabsets": {
+        "exists": true,
+        "count": 4,
+        "items": [
+          {
+            "file": "igloo_google-earth.ivwts",
+            "tab_name": "Google Earth",
+            "url_count": 6,
+            "primary_url": "https://earth.google.com/static/wasm/9.174.0.2/app_min.html?#@51.50513033,-0.59139625,193.62039636a,35573.01509817d,90y,-90.40225985h,90.31990718t,0r",
+            "capture_channel": "1",
+            "max_browser_fps": 15,
+            "equirectangular_output": true,
+            "off_axis_projection": true,
+            "streetview_mode": false
+          },
+          {
+            "file": "igloo_matterport.ivwts",
+            "tab_name": "Igloo Matterport Service",
+            "url_count": 6,
+            "primary_url": "http://localhost:9060/viewFrame/?rotX=0&rotY=90",
+            "capture_channel": "1",
+            "max_browser_fps": 15,
+            "equirectangular_output": true,
+            "off_axis_projection": true,
+            "streetview_mode": false
+          },
+          {
+            "file": "igloo_streetview.ivwts",
+            "tab_name": "Igloo Streetview Service",
+            "url_count": 1,
+            "primary_url": "http://127.0.0.1:9070/iglooview/",
+            "capture_channel": "1",
+            "max_browser_fps": 30,
+            "equirectangular_output": true,
+            "off_axis_projection": true,
+            "streetview_mode": false
+          },
+          {
+            "file": "thinglink.ivwts",
+            "tab_name": "iglooWeb",
+            "url_count": 1,
+            "primary_url": "https://thinglink-editor.s3.amazonaws.com/production/ext/cubemap/index.html?id=888597246197628929&scale=2",
+            "capture_channel": "1",
+            "max_browser_fps": 60,
+            "equirectangular_output": true,
+            "off_axis_projection": true,
+            "streetview_mode": false
+          }
+        ]
+      },
+      "open_stage_control": {
+        "exists": true,
+        "file": "C:\\igloo\\igloo-core-service\\open-stage-control\\default_session.json",
+        "counts": {
+          "widgets": 10,
+          "panels": 3,
+          "buttons": 6
+        },
+        "targets": [
+          "localhost:9016",
+          "localhost:9040",
+          "localhost:9041"
+        ],
+        "addresses": [
+          "/crestron/1",
+          "/deviceControl/projectors/off",
+          "/deviceControl/projectors/on",
+          "/dmx/1",
+          "/dmx/2",
+          "/dmx/3"
+        ],
+        "sample_ids": [
+          "root",
+          "Projector Control",
+          "Projectors on",
+          "Projectors off",
+          "panel_4",
+          "DMX Event 1",
+          "DMX Event 2",
+          "DMX Event 3",
+          "panel_5",
+          "IglooOutput Message 1"
+        ]
+      },
+      "saved_sessions": {
+        "exists": true,
+        "count": 2,
+        "roots": [
+          "C:\\Users\\AshtonKehinde\\OneDrive - igloovision\\Desktop"
+        ],
+        "items": [
+          {
+            "path": "C:\\Users\\AshtonKehinde\\OneDrive - igloovision\\Desktop\\MakVideos.iceSession",
+            "session_name": "MakVideos",
+            "product_version": "1.5.2.251029-1",
+            "layer_count": 1,
+            "inferred_session_type": "immersive 360 playback session",
+            "exported_with_assets": false,
+            "trigger_action_enabled": true,
+            "assets_dir_exists": false,
+            "asset_count": 0,
+            "layer_names": [
+              "Traffic.mp4"
+            ],
+            "content_types": [
+              "360 video"
+            ],
+            "readiness": {
+              "average_score": 55.0,
+              "statuses": [
+                "usable with prep"
+              ]
+            },
+            "last_modified": "2025-11-28T16:00:02.168572"
+          },
+          {
+            "path": "C:\\Users\\AshtonKehinde\\OneDrive - igloovision\\Desktop\\Quiddiya\\Quiddiya.iceSession",
+            "session_name": "Quiddiya",
+            "product_version": "1.5.0.250527-1",
+            "layer_count": 1,
+            "inferred_session_type": "immersive 360 playback session",
+            "exported_with_assets": true,
+            "trigger_action_enabled": false,
+            "assets_dir_exists": true,
+            "asset_count": 0,
+            "layer_names": [
+              "Quiddiya_mmck_5.1.mov"
+            ],
+            "content_types": [
+              "360 video"
+            ],
+            "readiness": {
+              "average_score": 65.0,
+              "statuses": [
+                "usable with prep"
+              ]
+            },
+            "last_modified": "2025-07-07T16:44:25"
+          }
+        ]
+      }
+    },
+    "secrets_configured": {
+      "streetview_api_key": false,
+      "matterport_api_key": false,
+      "skybox_api_key": false
+    }
+  },
+  "index_summary": {
+    "built_at": "2026-04-05T06:28:34+00:00",
+    "source_count": 35,
+    "fragment_count": 193,
+    "warnings": []
+  }
+}

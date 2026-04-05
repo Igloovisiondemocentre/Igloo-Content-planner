@@ -1,0 +1,302 @@
+{
+  "name": "Hybrid AECO review\nCreate an AECO review",
+  "brief": "Hybrid AECO review\nCreate an AECO review demo where local users view a BIM/model workflow in-room while remote participants join through a standard collaboration route and the operator switches between views, dashboards, and markups.\nNotes: hybrid meeting, professional feel, operator-led.",
+  "structure": {
+    "structure_id": "cave",
+    "label": "CAVE",
+    "description": "A multi-wall shared immersive environment with strong collaborative sight lines.",
+    "shape": "cave",
+    "projection_style": "multi-wall room"
+  },
+  "suggested_structure_id": "cave",
+  "suggested_structure_reason": "A CAVE-style setup is a strong fit for collaborative AECO reviews because it favors shared sight lines and controlled comparison states.",
+  "readiness_score": 60,
+  "readiness_label": "Promising with checks",
+  "target_duration_minutes": 10,
+  "estimated_duration_minutes": 12,
+  "duration_gap_minutes": 0,
+  "assessment": {
+    "verdict": "Supported with configuration",
+    "confidence": 0.61,
+    "confidence_percent": 61,
+    "operational_flags": [
+      "Needs human review"
+    ],
+    "validation_posture": "configuration-heavy workflow",
+    "platform_capability": "known working",
+    "exact_item_check": "needs checking",
+    "workflow_fit": "possible with caveats",
+    "control_interaction_fit": "straightforward",
+    "recommended_route": "Yes, the platform building blocks are there, but the proposed workflow still has caveats around fit, operation, or presentation. Treat this as a configuration-led workflow. Likely runtime path: Use Igloo Model Viewer or a supported BIM/model-viewer route for in-room 3D model review.; Use Content Bank entries and saved sessions to switch between prepared scenarios or media states. Likely content-prep path: Prepare the 3D model or BIM source in a format supported by the chosen model-viewer workflow.",
+    "top_dependencies": [
+      "A supported 3D model, BIM viewer, or model-viewer workflow that the target Igloo environment can load.",
+      "Operator review before client-facing commitment if the answer carries ambiguity or risk."
+    ],
+    "top_unknowns": [
+      "Coverage gaps by concept: local_workflow=primary, model_viewer=primary, remote_workflow=primary.",
+      "The exact model viewer, markup flow, and participant-control model still need to be chosen.",
+      "The content grouping and switching order still need to be designed for the intended audience and operator."
+    ],
+    "evidence": [
+      {
+        "title": "Desktop UI - Exploring Google Street View | Igloo Documentation",
+        "excerpt": "Layer Settings General Geometry Playback Effects True Perspective Interactive Shader Format (ISF) Misc Sessions Import & Export System Layouts Window Content Library Window Session Library Media Files Layer Templates User Management Window ",
+        "source_type": "platform_doc",
+        "score": 27.98
+      },
+      {
+        "title": "Igloo Core Engine Documentation | Igloo Documentation",
+        "excerpt": "Layer Settings General Geometry Playback Effects True Perspective Interactive Shader Format (ISF) Misc Sessions Import & Export System Layouts Window Content Library Window Session Library Media Files Layer Templates User Management Window ",
+        "source_type": "platform_doc",
+        "score": 26.48
+      },
+      {
+        "title": "Canvas UI - Layers and Sessions | Igloo Documentation",
+        "excerpt": "Layer Settings General Geometry Playback Effects True Perspective Interactive Shader Format (ISF) Misc Sessions Import & Export System Layouts Window Content Library Window Session Library Media Files Layer Templates User Management Window ",
+        "source_type": "platform_doc",
+        "score": 26.48
+      }
+    ],
+    "practical_summary": "Yes, the platform building blocks are there, but the proposed workflow still has caveats around fit, operation, or presentation."
+  },
+  "selected_content": [
+    {
+      "candidate_id": "candidate-1",
+      "title": "Revizto Collaboration Hub | BIM Collaboration for AECO",
+      "content_type": "dashboard app",
+      "source": "revizto.com",
+      "location": "https://revizto.com/product/collaboration-hub",
+      "readiness_status": "usable with prep",
+      "readiness_score": 72,
+      "exact_item_status": "likely fine",
+      "notes": [
+        "Use a live app or dashboard route here rather than a brochure-style website.",
+        "This looks like a model-viewer route rather than a plain document website.",
+        "Check the exact model size, viewer controls, and whether the interaction is smooth enough in-room."
+      ],
+      "recommended_layer_type": "ModelViewer",
+      "query_hint": "aeco bim dashboard app",
+      "resolution_label": "Viewer-dependent",
+      "recommended_minutes": 3,
+      "selected": true,
+      "thumbnail_url": "",
+      "preview_caption": "Revizto Collaboration Hub | BIM Collaboration for AECO",
+      "provider": "DuckDuckGo web search",
+      "match_score": 76
+    },
+    {
+      "candidate_id": "candidate-2",
+      "title": "Autodesk AECO Technology Partner Ecosystem",
+      "content_type": "dashboard app",
+      "source": "autodesk.com",
+      "location": "https://www.autodesk.com/integrations",
+      "readiness_status": "usable with prep",
+      "readiness_score": 72,
+      "exact_item_status": "likely fine",
+      "notes": [
+        "Use this for the second live app state, comparison layout, or graph wall.",
+        "This looks like a model-viewer route rather than a plain document website.",
+        "Check the exact model size, viewer controls, and whether the interaction is smooth enough in-room."
+      ],
+      "recommended_layer_type": "ModelViewer",
+      "query_hint": "aeco bim dashboard app",
+      "resolution_label": "Viewer-dependent",
+      "recommended_minutes": 2,
+      "selected": true,
+      "thumbnail_url": "",
+      "preview_caption": "",
+      "provider": "DuckDuckGo web search",
+      "match_score": 88
+    },
+    {
+      "candidate_id": "candidate-3",
+      "title": "Revizto | BIM Collaboration Software for AECO Teams",
+      "content_type": "3d model",
+      "source": "revizto.com",
+      "location": "https://revizto.com/",
+      "readiness_status": "usable with prep",
+      "readiness_score": 72,
+      "exact_item_status": "likely fine",
+      "notes": [
+        "Choose the viewer route first, then confirm markups, comparison views, and meeting control.",
+        "This looks like a model-viewer route rather than a plain document website.",
+        "Check the exact model size, viewer controls, and whether the interaction is smooth enough in-room."
+      ],
+      "recommended_layer_type": "ModelViewer",
+      "query_hint": "aeco bim Revizto Autodesk BIM",
+      "resolution_label": "Viewer-dependent",
+      "recommended_minutes": 4,
+      "selected": true,
+      "thumbnail_url": "",
+      "preview_caption": "Revizto | BIM Collaboration Software for AECO Teams",
+      "provider": "DuckDuckGo web search",
+      "match_score": 100
+    },
+    {
+      "candidate_id": "candidate-4",
+      "title": "Interface, Load, Navigate - BIM, IFC, OpenBIM Lesson | AECO.dev",
+      "content_type": "image",
+      "source": "aeco.dev",
+      "location": "https://www.aeco.dev/courses/bbim_4_beginners/BBIM4B2-2",
+      "readiness_status": "needs checking",
+      "readiness_score": 58,
+      "exact_item_status": "needs checking",
+      "notes": [
+        "Use this for the Home or Content Bank launch surface so switching remains clear and repeatable.",
+        "Exact item compatibility still needs checking."
+      ],
+      "recommended_layer_type": "WebView",
+      "query_hint": "aeco bim menu graphics",
+      "resolution_label": "Unknown",
+      "recommended_minutes": 1,
+      "selected": true,
+      "thumbnail_url": "https://www.aeco.dev/static/img/logo_blue.svg",
+      "preview_caption": "AECO.dev | \n  Interface, Load, Navigate \u2013 BIM, IFC, OpenBIM Lesson | AECO.dev | Learn Interface, Load, Navigate with AECO.dev. Step-by-step BIM, IFC, OpenBIM, IfcOpenShell, and BonsaiBIM lessons for digital construction professionals.",
+      "provider": "DuckDuckGo web search",
+      "match_score": 24
+    }
+  ],
+  "layer_drafts": [
+    {
+      "layer_id": "draft-layer-1",
+      "label": "Primary dashboard wall",
+      "layer_type": "WebView",
+      "purpose": "Live review wall",
+      "source_candidate_id": "candidate-1",
+      "key_settings": [
+        "Confirm final operator flow",
+        "Confirm login and refresh behavior",
+        "Choose wall placement",
+        "Check live data readability"
+      ]
+    },
+    {
+      "layer_id": "draft-layer-2",
+      "label": "Supporting graph or comparison wall",
+      "layer_type": "WebView",
+      "purpose": "Live review wall",
+      "source_candidate_id": "candidate-2",
+      "key_settings": [
+        "Confirm final operator flow",
+        "Confirm login and refresh behavior",
+        "Choose wall placement",
+        "Check live data readability"
+      ]
+    },
+    {
+      "layer_id": "draft-layer-3",
+      "label": "Model review source",
+      "layer_type": "ModelViewer",
+      "purpose": "Model review layer",
+      "source_candidate_id": "candidate-3",
+      "key_settings": [
+        "Confirm final operator flow",
+        "Confirm viewer route",
+        "Confirm operator control model"
+      ]
+    },
+    {
+      "layer_id": "draft-layer-4",
+      "label": "Launch menu graphics",
+      "layer_type": "Image",
+      "purpose": "Launch and navigation support layer",
+      "source_candidate_id": "candidate-4",
+      "key_settings": [
+        "Confirm final operator flow",
+        "Use large targets",
+        "Keep labels short",
+        "Test reset flow"
+      ]
+    },
+    {
+      "layer_id": "draft-layer-5",
+      "label": "Content Bank switcher",
+      "layer_type": "ContentBank",
+      "purpose": "Switch between prepared content states without leaving the operator workflow.",
+      "source_candidate_id": null,
+      "key_settings": [
+        "Group content into clear scenarios",
+        "Use large tiles",
+        "Keep the order operator-friendly"
+      ]
+    }
+  ],
+  "workflow_steps": [
+    {
+      "step_id": "derived-open",
+      "label": "Open the session and orient the room",
+      "minutes": 1,
+      "summary": "Use the launch surface to start in a clean, repeatable state."
+    },
+    {
+      "step_id": "derived-1",
+      "label": "Revizto Collaboration Hub | BIM Collaboration for AECO",
+      "minutes": 3,
+      "summary": "Use this as one of the prepared beats in the operator flow.",
+      "source_candidate_id": "candidate-1"
+    },
+    {
+      "step_id": "derived-2",
+      "label": "Autodesk AECO Technology Partner Ecosystem",
+      "minutes": 2,
+      "summary": "Use this as one of the prepared beats in the operator flow.",
+      "source_candidate_id": "candidate-2"
+    },
+    {
+      "step_id": "derived-3",
+      "label": "Revizto | BIM Collaboration Software for AECO Teams",
+      "minutes": 4,
+      "summary": "Use this as one of the prepared beats in the operator flow.",
+      "source_candidate_id": "candidate-3"
+    },
+    {
+      "step_id": "derived-4",
+      "label": "Interface, Load, Navigate - BIM, IFC, OpenBIM Lesson | AECO.dev",
+      "minutes": 1,
+      "summary": "Use this as one of the prepared beats in the operator flow.",
+      "source_candidate_id": "candidate-4"
+    },
+    {
+      "step_id": "derived-reset",
+      "label": "Reset or return to launcher",
+      "minutes": 1,
+      "summary": "End on a stable state so the next run starts cleanly."
+    }
+  ],
+  "recommendations": [
+    {
+      "title": "Define the scenario states",
+      "detail": "Name the exact launch states you want, for example opener, main scene, reference panel, and reset state, so the Content Bank stays clear instead of becoming a loose media list.",
+      "priority": "medium"
+    },
+    {
+      "title": "Stage the collaboration flow",
+      "detail": "Lead with the model first, then bring in dashboards or hybrid participation as a deliberate second beat so the review stays clear and professional.",
+      "priority": "medium"
+    }
+  ],
+  "use_case_alignment": [
+    "Comparable Igloo use-case pattern: AECO teams use immersive workspaces for BIM/model review, markups, design comparison, and faster collaborative decision-making."
+  ],
+  "search_suggestions": [
+    {
+      "mode": "review_app",
+      "query": "aeco bim dashboard app"
+    },
+    {
+      "mode": "interactive_model",
+      "query": "aeco bim Revizto Autodesk BIM"
+    },
+    {
+      "mode": "website",
+      "query": "aeco bim menu graphics"
+    }
+  ],
+  "session_import": null,
+  "demo_plan_notes": [
+    "Lead with one primary model route first, then bring in markups, comparison layouts, or dashboards as controlled secondary states.",
+    "For client-facing AECO demos, smooth operator flow matters more than showing every tool at once.",
+    "If hybrid participation is part of the demo, make that a planned beat rather than something always on in the background.",
+    "Client-facing immersive demos usually work best with one hero moment, two or three supporting beats, and one obvious reset path."
+  ]
+}

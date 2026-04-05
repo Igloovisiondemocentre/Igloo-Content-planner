@@ -1,0 +1,38 @@
+{
+  "saved": true,
+  "package_dir": "C:\\igloo\\igloo-core-service\\Igloo Agent\\evidence\\session_packages\\Reusable-mixed-media-session-for-sandbox-import-1",
+  "session_path": "C:\\igloo\\igloo-core-service\\Igloo Agent\\evidence\\session_packages\\Reusable-mixed-media-session-for-sandbox-import-1\\Reusable-mixed-media-session-for-sandbox-import.iceSession",
+  "manifest_path": "C:\\igloo\\igloo-core-service\\Igloo Agent\\evidence\\session_packages\\Reusable-mixed-media-session-for-sandbox-import-1\\package_manifest.json",
+  "notes_path": "C:\\igloo\\igloo-core-service\\Igloo Agent\\evidence\\session_packages\\Reusable-mixed-media-session-for-sandbox-import-1\\README.txt",
+  "exported_with_assets": false,
+  "asset_records": [
+    {
+      "title": "Immersive opener",
+      "type": "url",
+      "path": "https://www.youtube.com/watch?v=7WMmAuYsInY",
+      "reference_shortcut": "C:\\igloo\\igloo-core-service\\Igloo Agent\\evidence\\session_packages\\Reusable-mixed-media-session-for-sandbox-import-1\\References\\Immersive-opener.url",
+      "layer_type": "YouTube"
+    },
+    {
+      "title": "Primary video segment",
+      "type": "asset",
+      "source_path": "C:\\igloo\\igloo-core-service\\Igloo Agent\\evidence\\session_packages\\Local-mixed-media-demo-session\\Assets\\Traffic-video.mp4",
+      "package_path": "C:\\igloo\\igloo-core-service\\Igloo Agent\\evidence\\session_packages\\Reusable-mixed-media-session-for-sandbox-import-1\\Assets\\Primary-video-segment.mp4",
+      "layer_type": "Video"
+    },
+    {
+      "title": "Supporting PDF or lesson document",
+      "type": "asset",
+      "source_path": "C:\\igloo\\igloo-core-service\\Igloo Agent\\evidence\\session_packages\\Local-mixed-media-demo-session\\Assets\\Option-1-PDF.pdf",
+      "package_path": "C:\\igloo\\igloo-core-service\\Igloo Agent\\evidence\\session_packages\\Reusable-mixed-media-session-for-sandbox-import-1\\Assets\\Supporting-PDF-or-lesson-document.pdf",
+      "layer_type": "PDF"
+    },
+    {
+      "title": "Supporting website or WebView content",
+      "type": "url",
+      "path": "https://www.igloovision.com/case-studies",
+      "reference_shortcut": "C:\\igloo\\igloo-core-service\\Igloo Agent\\evidence\\session_packages\\Reusable-mixed-media-session-for-sandbox-import-1\\References\\Supporting-website-or-WebView-content.url",
+      "layer_type": "WebView"
+    }
+  ]
+}

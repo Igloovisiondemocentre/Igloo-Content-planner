@@ -1,0 +1,4 @@
+Layer: Content Bank switcher
+Purpose: Switch between prepared content states without leaving the operator workflow.
+This placeholder represents a non-media layer such as Home, Content Bank, or a launch surface.
+Replace it with the real layer asset or configuration before live use.

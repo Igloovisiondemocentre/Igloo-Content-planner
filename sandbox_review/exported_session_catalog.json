@@ -1,0 +1,117 @@
+[
+  {
+    "file": "C:\\Users\\AshtonKehinde\\OneDrive - igloovision\\Documents\\Export\\360 Universe Size Comparison\\360 Universe Size Comparison.iceSession",
+    "session_name": "360 Universe Size Comparison",
+    "version": "1.5.0.250513-1",
+    "exported_with_assets": true,
+    "trigger_action_enabled": true,
+    "layer_count": 1,
+    "layers": [
+      {
+        "name": "360 Universe Size Comparison | 3D Virtual Reality Experience",
+        "layer_type": "YouTube",
+        "source_field": "URL",
+        "source_locator": "http://localhost:800/icetube/?v=7WMmAuYsInY&amp;autoplay=1&amp;loop=1",
+        "render_passes": [
+          "PerspectiveExtraction"
+        ],
+        "content_type": "YouTube 360"
+      }
+    ],
+    "sibling_files": [],
+    "has_assets_folder": true
+  },
+  {
+    "file": "C:\\Users\\AshtonKehinde\\OneDrive - igloovision\\Documents\\Export\\3DVista\\3DVista.iceSession",
+    "session_name": "3DVista",
+    "version": "1.5.0.250513-1",
+    "exported_with_assets": true,
+    "trigger_action_enabled": true,
+    "layer_count": 1,
+    "layers": [
+      {
+        "name": "Venezia 360 Stereo (3D)",
+        "layer_type": "WebView",
+        "source_field": "URL",
+        "source_locator": "https://storage.net-fs.com/hosting/2727323/487/",
+        "render_passes": [],
+        "content_type": "website"
+      }
+    ],
+    "sibling_files": [
+      "aa62b68d-02d8-8c65-1e00-f09dd68b8442.png"
+    ],
+    "has_assets_folder": true
+  },
+  {
+    "file": "C:\\Users\\AshtonKehinde\\OneDrive - igloovision\\Documents\\Export\\ArchVis\\ArchVis.iceSession",
+    "session_name": "ArchVis",
+    "version": "1.5.0.250513-1",
+    "exported_with_assets": true,
+    "trigger_action_enabled": true,
+    "layer_count": 1,
+    "layers": [
+      {
+        "name": "ArchVis",
+        "layer_type": "Spout",
+        "source_field": "ExePath",
+        "source_locator": "D:\\Session Content\\Interactive\\Unity\\Igloo ArchVis\\ArchVis_Igloo.exe",
+        "render_passes": [
+          "PerspectiveExtraction"
+        ],
+        "content_type": "immersive media"
+      }
+    ],
+    "sibling_files": [
+      "unity-icon.png"
+    ],
+    "has_assets_folder": true
+  },
+  {
+    "file": "C:\\Users\\AshtonKehinde\\OneDrive - igloovision\\Documents\\Export\\Blockade Labs - Skybox\\Blockade Labs - Skybox.iceSession",
+    "session_name": "Blockade Labs - Skybox",
+    "version": "1.5.0.250513-1",
+    "exported_with_assets": true,
+    "trigger_action_enabled": true,
+    "layer_count": 1,
+    "layers": [
+      {
+        "name": "Blockade Labs - Skybox",
+        "layer_type": "WebView",
+        "source_field": "URL",
+        "source_locator": "http://localhost:800/skybox/viewFrame/",
+        "render_passes": [
+          "PerspectiveExtraction"
+        ],
+        "content_type": "interactive web"
+      }
+    ],
+    "sibling_files": [
+      "blockade.png"
+    ],
+    "has_assets_folder": true
+  },
+  {
+    "file": "C:\\Users\\AshtonKehinde\\OneDrive - igloovision\\Documents\\Export\\Deloitte office\\Deloitte office.iceSession",
+    "session_name": "Deloitte office",
+    "version": "1.5.0.250513-1",
+    "exported_with_assets": true,
+    "trigger_action_enabled": true,
+    "layer_count": 1,
+    "layers": [
+      {
+        "name": "IglooUnreal",
+        "layer_type": "Spout",
+        "source_field": "ExePath",
+        "source_locator": "D:\\Session Content\\Interactive\\Unreal\\ERA_Deloitte_101923\\Windows\\ERA_MB.exe",
+        "render_passes": [
+          "InputTranslation",
+          "PerspectiveExtraction"
+        ],
+        "content_type": "immersive media"
+      }
+    ],
+    "sibling_files": [],
+    "has_assets_folder": true
+  }
+]

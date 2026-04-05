@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<ProductVersion>
+  <Major>1</Major>
+  <Minor>5</Minor>
+  <Patch>0</Patch>
+  <VersionString>1.5.0.250527-1</VersionString>
+</ProductVersion>
+<Session>
+  <Id>1148889b-0af3-439c-a73c-c239654c4717</Id>
+  <Name>Hybrid AECO review
+Create an AECO review demo wh</Name>
+  <Description>Hybrid AECO review
+Create an AECO review demo where local users view a BIM/model workflow in-room while remote participants join through a standard collaboration route and the operator switches between views, dashboards, and markups.
+Notes: hybrid meeting, professional feel, operator-led.</Description>
+  <Thumbnail>{default}images\thumbnails\layers\video.png</Thumbnail>
+  <ReadOnly>0</ReadOnly>
+  <Tags />
+  <ExportedWithAssets>0</ExportedWithAssets>
+  <Metadata />
+  <Layers>
+    <ExportedWithAssets>0</ExportedWithAssets>
+    <Layer streamReceiveBufferSize="100">
+      <Metadata />
+      <Name>Primary dashboard wall</Name>
+      <PositionX>0.5</PositionX>
+      <PositionY>0.5</PositionY>
+      <RatioX>2</RatioX>
+      <RatioY>1</RatioY>
+      <Scale>1</Scale>
+      <ResizeMode>0</ResizeMode>
+      <PositionMode>0</PositionMode>
+      <UiEnabled>1</UiEnabled>
+      <UUID>c26db7f4-bc2d-4ac0-b388-0ec3366d2562</UUID>
+      <Type>WebView</Type>
+      <FilePath>C:\igloo\igloo-core-service\Igloo Agent\evidence\session_packages\Hybrid-AECO-reviewCreate-an-AECO-review-demo-where-local-us\assets\Revizto-Collaboration-Hub--BIM-Collaboration-for-AECO.url</FilePath>
+      <Loop>0</Loop>
+      <AutoPlay>0</AutoPlay>
+      <AudioVolume>0.5</AudioVolume>
+    </Layer>
+    <Layer streamReceiveBufferSize="100">
+      <Metadata />
+      <Name>Supporting graph or comparison wall</Name>
+      <PositionX>0.5</PositionX>
+      <PositionY>0.5</PositionY>
+      <RatioX>2</RatioX>
+      <RatioY>1</RatioY>
+      <Scale>1</Scale>
+      <ResizeMode>0</ResizeMode>
+      <PositionMode>0</PositionMode>
+      <UiEnabled>1</UiEnabled>
+      <UUID>c0c90ce8-50e1-4526-ab6c-42b28bf4685f</UUID>
+      <Type>WebView</Type>
+      <FilePath>C:\igloo\igloo-core-service\Igloo Agent\evidence\session_packages\Hybrid-AECO-reviewCreate-an-AECO-review-demo-where-local-us\assets\Autodesk-AECO-Technology-Partner-Ecosystem.url</FilePath>
+      <Loop>0</Loop>
+      <AutoPlay>0</AutoPlay>
+      <AudioVolume>0.5</AudioVolume>
+    </Layer>
+    <Layer streamReceiveBufferSize="100">
+      <Metadata />
+      <Name>Model review source</Name>
+      <PositionX>0.5</PositionX>
+      <PositionY>0.5</PositionY>
+      <RatioX>2</RatioX>
+      <RatioY>1</RatioY>
+      <Scale>1</Scale>
+      <ResizeMode>0</ResizeMode>
+      <PositionMode>0</PositionMode>
+      <UiEnabled>1</UiEnabled>
+      <UUID>f08918b1-594b-41bc-b4be-5c72024e94e5</UUID>
+      <Type>ModelViewer</Type>
+      <FilePath>C:\igloo\igloo-core-service\Igloo Agent\evidence\session_packages\Hybrid-AECO-reviewCreate-an-AECO-review-demo-where-local-us\assets\Revizto--BIM-Collaboration-Software-for-AECO-Teams.url</FilePath>
+      <Loop>0</Loop>
+      <AutoPlay>0</AutoPlay>
+      <AudioVolume>0.5</AudioVolume>
+    </Layer>
+    <Layer streamReceiveBufferSize="100">
+      <Metadata />
+      <Name>Launch menu graphics</Name>
+      <PositionX>0.5</PositionX>
+      <PositionY>0.5</PositionY>
+      <RatioX>2</RatioX>
+      <RatioY>1</RatioY>
+      <Scale>1</Scale>
+      <ResizeMode>0</ResizeMode>
+      <PositionMode>0</PositionMode>
+      <UiEnabled>1</UiEnabled>
+      <UUID>48ed50c6-2f59-46b7-95f7-fa24d955cbce</UUID>
+      <Type>Image</Type>
+      <FilePath>C:\igloo\igloo-core-service\Igloo Agent\evidence\session_packages\Hybrid-AECO-reviewCreate-an-AECO-review-demo-where-local-us\assets\Interface-Load-Navigate---BIM-IFC-OpenBIM-Lesson--AECOdev.url</FilePath>
+      <Loop>0</Loop>
+      <AutoPlay>0</AutoPlay>
+      <AudioVolume>0.5</AudioVolume>
+    </Layer>
+    <Layer streamReceiveBufferSize="100">
+      <Metadata />
+      <Name>Content Bank switcher</Name>
+      <PositionX>0.5</PositionX>
+      <PositionY>0.5</PositionY>
+      <RatioX>2</RatioX>
+      <RatioY>1</RatioY>
+      <Scale>1</Scale>
+      <ResizeMode>0</ResizeMode>
+      <PositionMode>0</PositionMode>
+      <UiEnabled>1</UiEnabled>
+      <UUID>5606593f-dae1-42bd-aa4f-e6d4425b4953</UUID>
+      <Type>ContentBank</Type>
+      <FilePath>C:\igloo\igloo-core-service\Igloo Agent\evidence\session_packages\Hybrid-AECO-reviewCreate-an-AECO-review-demo-where-local-us\assets\Content-Bank-switcher.placeholder.txt</FilePath>
+      <Loop>0</Loop>
+      <AutoPlay>0</AutoPlay>
+      <AudioVolume>0.5</AudioVolume>
+    </Layer>
+  </Layers>
+  <Layouts />
+</Session>
+<ta>
+  <enabled>0</enabled>
+  <triggers></triggers>
+</ta>
