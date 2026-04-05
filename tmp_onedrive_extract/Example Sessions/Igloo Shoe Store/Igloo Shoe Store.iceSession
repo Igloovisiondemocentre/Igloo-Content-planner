@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<ProductVersion>
+	<Major>1</Major>
+	<Minor>3</Minor>
+	<Patch>0</Patch>
+	<VersionString>1.3.0.240212-2</VersionString>
+</ProductVersion>
+<Session>
+	<Id>11324aa0-9e78-9396-8de4-e3cff4e445b4</Id>
+	<Name>Igloo Shoe Store</Name>
+	<Description></Description>
+	<Thumbnail>realtime.png</Thumbnail>
+	<ReadOnly>0</ReadOnly>
+	<Tags></Tags>
+	<ExportedWithAssets>1</ExportedWithAssets>
+	<Layers>
+		<ExportedWithAssets>1</ExportedWithAssets>
+		<Layer>
+			<Metadata />
+			<Name>Igloo Shoe Store</Name>
+			<PositionX>0.5</PositionX>
+			<PositionY>0.5</PositionY>
+			<RatioX>2</RatioX>
+			<RatioY>1</RatioY>
+			<StartCropX>0</StartCropX>
+			<StartCropY>0</StartCropY>
+			<CropSizeX>1</CropSizeX>
+			<CropSizeY>1</CropSizeY>
+			<WrapX>0</WrapX>
+			<WrapY>0</WrapY>
+			<Scale>1</Scale>
+			<AspectRatio>0</AspectRatio>
+			<ResizeMode>0</ResizeMode>
+			<PositionMode>0</PositionMode>
+			<ClearColourR>0</ClearColourR>
+			<ClearColourG>0</ClearColourG>
+			<ClearColourB>0</ClearColourB>
+			<ClearColourA>0</ClearColourA>
+			<IsPinned>0</IsPinned>
+			<IsBackground>0</IsBackground>
+			<IsTemplate>0</IsTemplate>
+			<ExePath>C:\Program Files (x86)\Igloo Vision\Igloo Shoe Store\IgShu.exe</ExePath>
+			<UiEnabled>1</UiEnabled>
+			<NamedByUser>1</NamedByUser>
+			<AudioVolume>1</AudioVolume>
+			<AudioMute>0</AudioMute>
+			<AudioDelay>0</AudioDelay>
+			<OnAddBat></OnAddBat>
+			<OnRemoveBat></OnRemoveBat>
+			<IsAlwaysOnTop>0</IsAlwaysOnTop>
+			<ControlScreenVis>0</ControlScreenVis>
+			<IsEnabled>1</IsEnabled>
+			<UiWidgetX>-1</UiWidgetX>
+			<UiWidgetY>-1</UiWidgetY>
+			<StereoFormat>0</StereoFormat>
+			<Type>Spout</Type>
+			<SenderName>IglooUnity</SenderName>
+			<SenderUseAlpha>0</SenderUseAlpha>
+			<RenderPasses>
+				<RenderPass>
+					<Type>PerspectiveExtraction</Type>
+					<ClearColourR>0</ClearColourR>
+					<ClearColourG>0</ClearColourG>
+					<ClearColourB>0</ClearColourB>
+					<ClearColourA>1</ClearColourA>
+					<Heading>0</Heading>
+					<Pitch>0</Pitch>
+					<PitchDirection>0</PitchDirection>
+					<UseCustomHead>0</UseCustomHead>
+					<CustomX>0</CustomX>
+					<CustomY>0</CustomY>
+					<CustomZ>0</CustomZ>
+				</RenderPass>
+			</RenderPasses>
+		</Layer>
+	</Layers>
+	<Layouts />
+</Session>

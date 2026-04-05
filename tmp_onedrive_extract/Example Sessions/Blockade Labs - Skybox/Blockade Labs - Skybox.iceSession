@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<ProductVersion>
+	<Major>1</Major>
+	<Minor>3</Minor>
+	<Patch>0</Patch>
+	<VersionString>1.3.0.240212-2</VersionString>
+</ProductVersion>
+<Session>
+	<Id>2bc86b2a-2855-cae3-1369-e71c52faaa26</Id>
+	<Name>Blockade Labs - Skybox</Name>
+	<Description></Description>
+	<Thumbnail>blockade.png</Thumbnail>
+	<ReadOnly>0</ReadOnly>
+	<Tags></Tags>
+	<ExportedWithAssets>1</ExportedWithAssets>
+	<Layers>
+		<ExportedWithAssets>1</ExportedWithAssets>
+		<Layer>
+			<Metadata>
+				<Entry Key="ics/contextualUi" Value="$ics/skybox/control/" />
+			</Metadata>
+			<Name>Blockade Labs - Skybox</Name>
+			<PositionX>0.5</PositionX>
+			<PositionY>0.5</PositionY>
+			<RatioX>2</RatioX>
+			<RatioY>1</RatioY>
+			<StartCropX>0</StartCropX>
+			<StartCropY>0</StartCropY>
+			<CropSizeX>1</CropSizeX>
+			<CropSizeY>1</CropSizeY>
+			<WrapX>0</WrapX>
+			<WrapY>0</WrapY>
+			<Scale>1</Scale>
+			<AspectRatio>1</AspectRatio>
+			<ResizeMode>0</ResizeMode>
+			<PositionMode>0</PositionMode>
+			<ClearColourR>0</ClearColourR>
+			<ClearColourG>0</ClearColourG>
+			<ClearColourB>0</ClearColourB>
+			<ClearColourA>0</ClearColourA>
+			<IsPinned>0</IsPinned>
+			<IsBackground>0</IsBackground>
+			<IsTemplate>0</IsTemplate>
+			<ExePath></ExePath>
+			<UiEnabled>0</UiEnabled>
+			<NamedByUser>1</NamedByUser>
+			<AudioVolume>0.5</AudioVolume>
+			<AudioMute>0</AudioMute>
+			<AudioDelay>0</AudioDelay>
+			<OnAddBat></OnAddBat>
+			<OnRemoveBat></OnRemoveBat>
+			<IsAlwaysOnTop>0</IsAlwaysOnTop>
+			<ControlScreenVis>0</ControlScreenVis>
+			<IsEnabled>1</IsEnabled>
+			<UiWidgetX>-1</UiWidgetX>
+			<UiWidgetY>-1</UiWidgetY>
+			<StereoFormat>0</StereoFormat>
+			<Type>WebView</Type>
+			<URL>http://localhost:800/skybox/viewFrame/</URL>
+			<SizeX>8000</SizeX>
+			<SizeY>4000</SizeY>
+			<DynamicRes>0</DynamicRes>
+			<UseCustomFPS>0</UseCustomFPS>
+			<CustomFPSValue>60</CustomFPSValue>
+			<AudioVolume>0.5</AudioVolume>
+			<AudioMute>0</AudioMute>
+			<AudioDelay>0</AudioDelay>
+			<ZoomLevel>0</ZoomLevel>
+			<RenderPasses>
+				<RenderPass>
+					<Type>PerspectiveExtraction</Type>
+					<ClearColourR>0</ClearColourR>
+					<ClearColourG>0</ClearColourG>
+					<ClearColourB>0</ClearColourB>
+					<ClearColourA>1</ClearColourA>
+					<Heading>0</Heading>
+					<Pitch>0</Pitch>
+					<PitchDirection>0</PitchDirection>
+					<UseCustomHead>0</UseCustomHead>
+					<CustomX>0</CustomX>
+					<CustomY>0</CustomY>
+					<CustomZ>0</CustomZ>
+				</RenderPass>
+			</RenderPasses>
+		</Layer>
+	</Layers>
+	<Layouts />
+</Session>
