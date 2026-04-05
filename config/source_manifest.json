@@ -1,0 +1,72 @@
+{
+  "runtime_api": {
+    "root_url": "https://api.igloovision.com/1.5.0/",
+    "seed_urls": [
+      "https://api.igloovision.com/1.5.0/",
+      "https://api.igloovision.com/1.5.0/layer-list/",
+      "https://api.igloovision.com/1.5.0/layer/",
+      "https://api.igloovision.com/1.5.0/session/",
+      "https://api.igloovision.com/1.5.0/content/",
+      "https://api.igloovision.com/1.5.0/messages/"
+    ]
+  },
+  "platform_docs": {
+    "root_url": "https://docs.igloovision.com/documentation/current",
+    "seed_urls": [
+      "https://docs.igloovision.com/documentation/current/1-5-x",
+      "https://docs.igloovision.com/documentation/current/igloo-core-engine",
+      "https://docs.igloovision.com/documentation/current/igloo-core-service",
+      "https://docs.igloovision.com/documentation/current/integrations",
+      "https://docs.igloovision.com/documentation/current/triggers-and-actions",
+      "https://docs.igloovision.com/documentation/current/home",
+      "https://docs.igloovision.com/documentation/current/home-components",
+      "https://docs.igloovision.com/documentation/current/content-bank",
+      "https://docs.igloovision.com/documentation/current/true-perspective",
+      "https://docs.igloovision.com/documentation/current/audio-window",
+      "https://docs.igloovision.com/documentation/current/playback",
+      "https://docs.igloovision.com/documentation/current/youtube-360",
+      "https://docs.igloovision.com/documentation/current/desktop-ui-viewing-youtube-360-movies",
+      "https://docs.igloovision.com/documentation/current/canvas-ui-layers-and-sessions",
+      "https://docs.igloovision.com/documentation/current/canvas-ui-viewing-pdf-documents",
+      "https://docs.igloovision.com/documentation/current/canvas-ui-content-bank-control",
+      "https://docs.igloovision.com/documentation/current/desktop-ui-working-with-webviews",
+      "https://docs.igloovision.com/documentation/current/desktop-ui-handling-360-degree-content",
+      "https://docs.igloovision.com/documentation/current/canvas-ui-video-conferencing",
+      "https://docs.igloovision.com/documentation/current/desktop-ui-layer-types-for-integration",
+      "https://docs.igloovision.com/documentation/current/cenariovr",
+      "https://docs.igloovision.com/documentation/current/thinglink",
+      "https://docs.igloovision.com/documentation/current/revizto",
+      "https://docs.igloovision.com/documentation/current/metaverse-learning"
+    ],
+    "priority_keywords": [
+      "session",
+      "layer",
+      "layers",
+      "webview",
+      "pdf",
+      "video",
+      "content",
+      "canvas",
+      "desktop",
+      "core-engine",
+      "core-service",
+      "integration",
+      "trigger",
+      "action",
+      "true-perspective",
+      "youtube",
+      "content-bank",
+      "home",
+      "audio",
+      "playback",
+      "thinglink",
+      "cenariovr",
+      "revizto",
+      "workspace"
+    ]
+  },
+  "pdf_sources": {
+    "glob": "*.pdf",
+    "role": "secondary_evidence"
+  }
+}
