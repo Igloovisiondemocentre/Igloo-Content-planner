@@ -1,0 +1,108 @@
+Metadata-Version: 2.4
+Name: igloo-experience-builder-pilot
+Version: 0.1.0
+Summary: Phase 1 Experience Feasibility Copilot for the Igloo Experience Builder Pilot.
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: pypdf<6,>=5.4.0
+
+# Igloo Experience Builder Pilot
+
+`Igloo Experience Builder Pilot` is a local-first Python project for the first wedge of a broader internal product vision. Phase 1 is the `Experience Feasibility Copilot`: a CLI that ingests the Igloo Core Engine runtime API docs, Igloo workflow/platform docs, and secondary internal PDFs, then returns an evidence-backed feasibility verdict with provenance, confidence, risks, and next steps.
+
+The codebase is intentionally narrow. Phase 1 only covers:
+
+- source ingestion
+- taxonomy
+- deterministic evidence retrieval
+- capability verdict generation
+- report generation
+- sandbox discovery and safe validation skeleton
+
+It does not attempt blueprint generation, content sourcing, transfer packaging, UI automation, or always-on orchestration yet.
+
+## Source hierarchy
+
+- Primary runtime truth: `https://api.igloovision.com/1.5.0/`
+- Primary workflow/platform truth: `https://docs.igloovision.com/documentation/current`
+- Secondary evidence only: local internal PDFs such as the Buyer’s Guide and pre-sales packs
+
+The support-policy layer exists to prevent the system from calling something “supported” only because an API path exists.
+
+## Quickstart
+
+1. Create a virtual environment and activate it.
+2. Install the package:
+
+```powershell
+python -m pip install -r requirements.txt
+python -m pip install -e .
+```
+
+3. Copy `.env.example` to `.env` if you want to tune source limits or enable a local sandbox probe.
+
+4. Run the CLI:
+
+```powershell
+igloo-experience-builder health-check
+igloo-experience-builder discover-api
+igloo-experience-builder ask "Can Igloo display a PDF, website, and video in one reusable session?"
+igloo-experience-builder report last
+```
+
+## Output model
+
+Every answer separates:
+
+- hard evidence
+- inference
+- local validation status
+- unresolved unknowns
+
+Confidence is tied to source quality, freshness, evidence strength, and sandbox outcome. It is not based only on model judgment.
+
+If the sandbox is configured and responds, the report still uses this warning:
+
+> Sandbox success means technically reproducible in this local environment. It does not mean ready to promise to a client.
+
+## Repo layout
+
+- `PLANS.md`: living roadmap and decision log
+- `config/source_manifest.json`: Phase 1 source manifest and crawl hints
+- `docs/`: taxonomy, support-policy notes, pilot metrics, source inventory
+- `src/igloo_experience_builder/`: implementation
+- `tests/evals/`: evaluation seeds and hero briefs
+- `evidence/`: generated indices, reports, and decision logs
+
+## Phase 1 commands
+
+### `health-check`
+
+Verifies:
+
+- source reachability
+- local PDF presence
+- index presence
+- optional sandbox configuration and safe ping probe
+
+### `discover-api`
+
+Builds or reuses the local evidence index, then reports:
+
+- discovered runtime API sections
+- optional read-only sandbox probe result
+
+### `ask "<question>"`
+
+Builds or reuses the local evidence index, retrieves matching evidence, applies the support-policy engine, and writes:
+
+- `evidence/reports/last_report.md`
+- `evidence/decisions/last_assessment.json`
+
+### `report last`
+
+Prints the most recent generated report.
+
+## Planned pilot path
+
+The first usable Phase 1 version should be built quickly. The rest of the 12-week pilot is for validation, trust-building, KPI tracking, refinement, and the Phase 2 go/no-go decision. The current implementation is aligned to that wedge and not to the later blueprint-building phases.
