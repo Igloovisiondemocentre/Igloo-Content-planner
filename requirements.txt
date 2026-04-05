@@ -1,0 +1,2 @@
+pypdf>=5.4.0,<6
+python-socketio[client]>=5.11.4,<6
