@@ -1,0 +1,41 @@
+[
+  {
+    "variant": 1,
+    "sequence": [
+      "__AUTHORISE__",
+      "app/ping"
+    ],
+    "responses": []
+  },
+  {
+    "variant": 2,
+    "sequence": [
+      "apiKey?value=+version=1.4.0",
+      "app/ping"
+    ],
+    "responses": []
+  },
+  {
+    "variant": 3,
+    "sequence": [
+      "apiKey?value=+version=latest",
+      "app/ping"
+    ],
+    "responses": []
+  },
+  {
+    "variant": 4,
+    "sequence": [
+      "apiKey?value=__AUTHORISE__+version=1.4.0",
+      "app/ping"
+    ],
+    "responses": []
+  },
+  {
+    "variant": 5,
+    "sequence": [
+      "app/ping"
+    ],
+    "responses": []
+  }
+]
