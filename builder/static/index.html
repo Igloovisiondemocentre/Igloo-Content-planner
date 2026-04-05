@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Igloo Experience Builder Pilot</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand">
+          <img id="brandLogo" src="" alt="Igloo Vision logo" />
+          <div>
+            <p class="eyebrow">Igloo Experience Builder Pilot</p>
+            <h1>Experience Builder</h1>
+          </div>
+        </div>
+        <div class="status-strip">
+          <div class="status-tile">
+            <span class="label">Readiness</span>
+            <strong id="readinessScore">--</strong>
+          </div>
+          <div class="status-tile">
+            <span class="label">Verdict</span>
+            <strong id="verdictChip" class="chip neutral">Not assessed</strong>
+          </div>
+          <div class="status-tile">
+            <span class="label">Review</span>
+            <strong id="reviewChip" class="chip neutral">No signal yet</strong>
+          </div>
+          <button id="exportSessionButton" class="ghost-button">Export session</button>
+          <button id="saveDraftButton" class="ghost-button">Save draft</button>
+        </div>
+      </header>
+
+      <main class="workspace">
+        <aside class="panel left-panel">
+          <section class="card">
+            <div class="card-header">
+              <div>
+                <p class="eyebrow">Input</p>
+                <h2>Brief</h2>
+              </div>
+            </div>
+            <label class="field-label" for="briefInput">Describe the session, audience, and any content you already have.</label>
+            <textarea id="briefInput" rows="7" placeholder="Can Igloo display a PDF, website, and video in one reusable session?"></textarea>
+            <div class="button-row">
+              <button id="assessButton" class="primary-button">Plan session</button>
+              <button id="loadExampleButton" class="ghost-button">Use sample</button>
+            </div>
+          </section>
+
+          <section class="card">
+            <div class="card-header">
+              <div>
+                <p class="eyebrow">Import</p>
+                <h2>Session</h2>
+              </div>
+            </div>
+            <label class="upload-zone" for="sessionFileInput">
+              <input id="sessionFileInput" type="file" accept=".iceSession,.xml,text/xml" />
+              <span>Import an <code>.iceSession</code> file to inspect layers, passes, and current session structure.</span>
+            </label>
+            <div id="sessionImportSummary" class="mini-stack empty-state">No session imported yet.</div>
+          </section>
+
+          <section class="card">
+            <div class="card-header">
+              <div>
+                <p class="eyebrow">Structure fit</p>
+                <h2>Room</h2>
+              </div>
+            </div>
+            <div id="structureToggle" class="pill-grid"></div>
+          </section>
+
+          <section class="card">
+            <div class="card-header">
+              <div>
+                <p class="eyebrow">Assessment</p>
+                <h2>Feasibility</h2>
+              </div>
+            </div>
+            <div id="assessmentChips" class="chip-grid"></div>
+            <div class="mini-grid">
+              <div class="mini-block">
+                <span class="label">Dependencies</span>
+                <ul id="dependencyList" class="compact-list"></ul>
+              </div>
+              <div class="mini-block">
+                <span class="label">Unknowns</span>
+                <ul id="unknownList" class="compact-list"></ul>
+              </div>
+            </div>
+          </section>
+        </aside>
+
+        <section class="center-column">
+          <section class="card preview-card">
+            <div class="card-header split">
+              <div>
+                <p class="eyebrow">Preview</p>
+                <h2>Session plan</h2>
+              </div>
+              <div class="tab-row">
+                <button class="tab-button active" data-preview-tab="flat">Plan view</button>
+                <button class="tab-button" data-preview-tab="structure">Room view</button>
+                <button class="tab-button" data-preview-tab="layers">Layers</button>
+              </div>
+            </div>
+            <div id="previewPanel" class="preview-panel"></div>
+          </section>
+
+          <section class="card">
+            <div class="card-header">
+              <div>
+                <p class="eyebrow">Plan</p>
+                <h2>Run of show</h2>
+              </div>
+            </div>
+            <div class="plan-topline">
+              <div class="plan-stat">
+                <span class="label">Target</span>
+                <strong id="targetDuration">--</strong>
+              </div>
+              <div class="plan-stat">
+                <span class="label">Estimated</span>
+                <strong id="estimatedDuration">--</strong>
+              </div>
+              <div class="plan-stat">
+                <span class="label">Gap</span>
+                <strong id="durationGap">--</strong>
+              </div>
+            </div>
+            <div class="plan-grid">
+              <div class="plan-block">
+                <span class="label">Flow</span>
+                <div id="workflowSteps" class="workflow-list"></div>
+              </div>
+              <div class="plan-block">
+                <span class="label">Demo notes</span>
+                <ul id="demoPlanNotes" class="compact-list"></ul>
+              </div>
+              <div class="plan-block">
+                <span class="label">Open items</span>
+                <div id="recommendationList" class="recommendation-list"></div>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <aside class="panel right-panel">
+          <section class="card content-card">
+            <div class="card-header split">
+              <div>
+                <p class="eyebrow">Content</p>
+                <h2>Selected content</h2>
+              </div>
+              <div class="tab-row compact">
+                <button class="tab-button active" data-side-tab="selected">Selected</button>
+                <button class="tab-button" data-side-tab="search">Search</button>
+                <button class="tab-button" data-side-tab="inspector">Inspect</button>
+              </div>
+            </div>
+
+            <div id="selectedTab" class="side-tab active">
+              <div id="selectedContentList" class="content-list"></div>
+            </div>
+
+            <div id="searchTab" class="side-tab">
+              <div class="search-controls">
+                <input id="searchInput" type="text" placeholder="Search one exact item: historic site 360, Sketchfab product model, Power BI sales dashboard..." />
+                <div class="button-row">
+                  <select id="searchMode">
+                    <option value="youtube_360">YouTube 360</option>
+                    <option value="immersive_web">Interactive web</option>
+                    <option value="interactive_model">3D model</option>
+                    <option value="review_app">Review app</option>
+                    <option value="website">Website</option>
+                    <option value="webxr">WebXR</option>
+                  </select>
+                  <label class="checkbox-row"><input id="require4k" type="checkbox" checked /> 4K+</label>
+                </div>
+                <button id="clearSearchTargetButton" class="ghost-button wide">Clear replace target</button>
+                <button id="autoSearchButton" class="ghost-button wide">Auto-fill from brief</button>
+                <button id="searchButton" class="primary-button wide">Find content</button>
+              </div>
+              <div id="searchNotes" class="search-notes"></div>
+              <div id="searchResults" class="content-list"></div>
+            </div>
+
+            <div id="inspectorTab" class="side-tab">
+              <div id="inspectorPanel" class="inspector-panel empty-state">Select a content card or imported layer to inspect it here.</div>
+            </div>
+          </section>
+
+          <section class="card support-card">
+            <div class="card-header">
+              <div>
+                <p class="eyebrow">Context</p>
+                <h2>References</h2>
+              </div>
+            </div>
+            <div class="support-grid">
+              <div>
+                <span class="label">Comparable use cases</span>
+                <ul id="useCaseList" class="compact-list"></ul>
+              </div>
+              <div>
+                <span class="label">Evidence</span>
+                <div id="evidenceList" class="evidence-stack"></div>
+              </div>
+            </div>
+          </section>
+        </aside>
+      </main>
+
+      <footer class="bottom-bar">
+        <div id="routeSummary" class="route-summary">Plan a session to see the recommended build route.</div>
+      </footer>
+    </div>
+    <script src="/static/app.js" type="module"></script>
+  </body>
+</html>
